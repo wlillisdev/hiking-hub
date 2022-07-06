@@ -9,9 +9,7 @@ body {
     color: #4A4A4F;
 }
 
-.red-o {
-    color: #E84610;
-}
+
 
 .thin {
     font-weight: 300;
@@ -57,7 +55,7 @@ body {
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 33vh;
+    height: 60vh;
     width: 100%;
 }
 

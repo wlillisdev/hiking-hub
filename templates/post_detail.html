@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
 
-<div class="masthead">
+<div>
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6 masthead-text">
@@ -37,6 +37,9 @@
                 </p>
                 <p class="card-text ">
                     <i class="fas fa-clock"></i> <b>Duration</b> = {{ post.time | safe }}
+                </p>
+                <p class="card-text ">
+                    <i class="fas fa-mountain"></i></i> <b>Difficulty</b> = {{ post.difficulty | safe }}
                 </p>
                 <p class="card-text ">
                     <h3>Hike Review</h3>

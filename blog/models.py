@@ -25,9 +25,7 @@ class Post(models.Model):
     content = models.TextField()
     distance = models.CharField(max_length=50, blank=True)
     time = models.CharField(max_length=50, blank=True)
-    grade_hard = models.BooleanField(default=False)
-    grade_moderate = models.BooleanField(default=False)
-    grade_easy = models.BooleanField(default=False)
+    difficulty = models.CharField(max_length=50, blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(
