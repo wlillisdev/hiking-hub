@@ -1,15 +1,18 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
+from django.views import View
+from django.views.generic import ListView, CreateView
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
 
 
-class Home(generic.TemplateView):
-    template_name = 'index.html'
+def index(request):
+    """ Returns index.html """
+    return render(request, 'index.html')
 
 
-class PostList(generic.ListView):
+class PostList(ListView):
+    """ Returns list of blog posts """
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "posts.html"
@@ -69,6 +72,7 @@ class PostDetail(View):
             },
         )
 
+
 class PostLike(View):
     
     def post(self, request, slug, *args, **kwargs):
@@ -79,3 +83,9 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+class AddPostView(CreateView):
+    model = Post
+    template_name = 'add_post.html'
+    fields = '__all__'
