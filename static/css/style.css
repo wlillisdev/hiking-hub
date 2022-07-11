@@ -149,6 +149,42 @@ a:hover {
     background: transparent;
 }
 
+.hero-container {
+    height: 100vh;
+    background: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#hero-heading {
+    color: white;
+	/* font-size: 3rem; */
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-text{
+    color: white;
+	/* font-size: 2rem; */
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .hero-box {
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+    z-index: -1;    
+} */
+
+
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;

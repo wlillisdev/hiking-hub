@@ -1,15 +1,18 @@
 {% extends "base.html" %}
-{% load static %}
+
 
 {% block content %}
+
+{% load static %}
 
 <h1>Add Blog Post</h1>
 
 <table>
     {% csrf_token %}
     {{ form.as_table}}
-    <button>Post</button>
+    
 </table>
+<button>Post</button>
 
 </div>
 {%endblock%}

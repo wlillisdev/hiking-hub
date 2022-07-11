@@ -1,8 +1,41 @@
 {% extends "base.html" %}
-{% load static %}
+
+
 
 {% block content %}
+{% load static %}
+<section>
+    <div id="hero-image" class="container-fluid hero-container"
+        style="background-image: url(https://res.cloudinary.com/dquffivjp/image/upload/v1657567117/hero_image_mutlzr.jpg)">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center hero-box">
+                    <h1 id="hero-heading"><i class="fas fa-hiking"></i> Hiking Hub</h1>
+                    <h4 class="hero-text">Join our Community</h4>
+                    <h4 class="hero-text">Discover Hidden Hikes & Trails</h4>
 
-<p class="home-heading">hompage</p>
+                    {% if user.is_authenticated %}
+                    <p class="lead text-light"> Welcome back {{ user | title }}</p>
+                    <form action="{% url 'posts' %}" method="get">
+                        <button class="btn btn-dark">View Posts</button>
+                        <p><small>Check Out the Latest Posts</small></p>
+                    </form>
+                    
+                    {% else %}
+                    <p class="lead text-light">Sign up today to start sharing your latests hikeing adventuers!</p>
+                    <form action="{% url 'account_signup' %}" method="get">
+                        <button class="btn btn-dark">Sign
+                            up!</button>
+                    </form>
+                    <h5><small>You will need to sign up to post,comment or like posts</small></h5>
+                    {% endif %}
+
+                </div>
+            </div>
+</section>
+<br>
+
+
+
 
 {%endblock%}
