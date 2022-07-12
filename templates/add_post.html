@@ -1,18 +1,41 @@
 {% extends "base.html" %}
 
-
-{% block content %}
-
 {% load static %}
 
-<h1>Add Blog Post</h1>
+{% load crispy_forms_tags %}
+{% block content %}
 
-<table>
-    {% csrf_token %}
-    {{ form.as_table}}
-    
-</table>
-<button>Post</button>
 
+<!-- {% if user.is_authenticated %} -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h4 class="text-center mt-2">Add Blog Post</h4>
+            <hr>
+        </div>
+    </div>
 </div>
-{%endblock%}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10 mt-3 offset-1 g-0 text-center">
+            <form  method="post" enctype="multipart/form-data">
+                
+                {% csrf_token %}
+                {{ form.media}}
+                {{ form.as_p }}
+                
+                <button class="btn btn-secondary right mb-2" type="submit" value="Save">Add Post</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- {% else %}
+
+{% include "not_logged_in_error.html" %}
+
+{% endif %}
+
+{% endblock %} -->

@@ -151,12 +151,13 @@ a:hover {
 
 .hero-container {
     height: 100vh;
-    background: no-repeat;
+    background: no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 #hero-heading {

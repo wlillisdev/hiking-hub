@@ -11,31 +11,59 @@
             <div class="col-12">
                 <div class="text-center hero-box">
                     <h1 id="hero-heading"><i class="fas fa-hiking"></i> Hiking Hub</h1>
-                    <h4 class="hero-text">Join our Community</h4>
-                    <h4 class="hero-text">Discover Hidden Hikes & Trails</h4>
 
                     {% if user.is_authenticated %}
-                    <p class="lead text-light"> Welcome back {{ user | title }}</p>
+                    <h4 class="hero-text"> Welcome back {{ user | title }}</h4>
+                    <br>
                     <form action="{% url 'posts' %}" method="get">
-                        <button class="btn btn-dark">View Posts</button>
-                        <p><small>Check Out the Latest Posts</small></p>
+                        <button class="btn btn-primary">View Posts</button>
                     </form>
-                    
+                    <br>
+                    <h4 class="hero-text">Check Out the Latest Posts</h4>
+
                     {% else %}
-                    <p class="lead text-light">Sign up today to start sharing your latests hikeing adventuers!</p>
+                    <h4 class="hero-text">Join our Community</h4>
+                    <h4 class="hero-text">Discover Hidden Hikes & Trails</h4>
+                    <h5 class="hero-text" >Sign up today to start sharing your latests hiking adventuers!</h5>
                     <form action="{% url 'account_signup' %}" method="get">
-                        <button class="btn btn-dark">Sign
-                            up!</button>
+                    <br>
+                        <button class="btn btn-primary">Sign
+                            Up</button>
                     </form>
-                    <h5><small>You will need to sign up to post,comment or like posts</small></h5>
+                    <br>
+                    <h5 class="hero-text">You will need to sign up to post,comment or like posts</h5>
                     {% endif %}
 
                 </div>
             </div>
 </section>
-<br>
 
-
-
+<section>
+    <div class="container features-container content-container">
+        <div class="row">
+            <div class="col-12 page-header">
+                <h4 class="text-center mt-3 mb-2">Why Join Us ?</h4>
+                <hr>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-md-6 mt-2">
+                <h2 class="feature-head text-center"><i class="fas fa-map-marked-alt"></i> Find New Hikes</h2>
+                <p class="text-center">Share, Explore and enjoy new hikes and trails from all over Ireland</p>
+                <h2 class="feature-head text-center"><i class="fas fa-heart"></i> Hiking Community</h2>
+                <p class="text-center">Join and be part of a thriving online hiking Community.</p>
+                <h2 class="feature-head text-center"><i class="fas fa-heartbeat"></i> Health Benefits</h2>
+                <p class="text-center"> Hiking is an excellent aerobic work out it improves your respiratory and cardiovascular health</p>
+                <h2 class="feature-head text-center"><i class="fas fa-thumbs-up"></i> Real Reviews</h2>
+                <p class="text-center">Post your Hike review,Like & Comment on posts uploaded from other users</p>
+            </div>
+            
+            <div class="col-md-6 mt-2 mb-5">
+                <img src="{% static 'images/people_hiking.jpg' %}" class="img-fluid" alt="People Hiking">
+            </div>
+            
+        </div>
+    </div>
+</section>
 
 {%endblock%}

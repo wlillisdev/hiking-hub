@@ -5,8 +5,10 @@ from django.views import View
 from django.contrib import messages
 from django.views.generic import ListView, CreateView
 from django.http import HttpResponseRedirect
+from django.contrib.messages.views import SuccessMessageMixin
 from .models import Post
-from .forms import CommentForm
+from .forms import CommentForm, PostForm
+from django.urls import reverse_lazy
 
 
 
@@ -78,7 +80,6 @@ class PostDetail(View):
 
 
 class PostLike(View):
-    
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
@@ -89,8 +90,13 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class AddPostView(CreateView):
+class AddPostView(SuccessMessageMixin, CreateView):
     model = Post
+    form_class = PostForm
     template_name = 'add_post.html'
-    fields = '__all__'
     success_message = 'Your Post Was Successfully Added'
+    success_url = reverse_lazy('home')
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
