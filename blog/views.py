@@ -94,7 +94,7 @@ class AddPostView(SuccessMessageMixin, CreateView):
     model = Post
     form_class = PostForm
     template_name = 'add_post.html'
-    success_message = 'Your Post Was Successfully Added'
+    success_message = 'Your Post Has Been Submitted & is Awaiting Approval'
     success_url = reverse_lazy('home')
 
     def form_valid(self, form):
