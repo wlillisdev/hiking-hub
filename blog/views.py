@@ -3,8 +3,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import View
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, UserPassesTestMixin
-from django.contrib import messages
-from django.views.generic import ListView, CreateView, UpdateView
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
 from django.contrib.messages.views import SuccessMessageMixin
 from .models import Post
@@ -91,7 +90,7 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class AddPostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, CreateView):
+class AddPostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = Post
     form_class = PostForm
     template_name = 'add_post.html'
@@ -101,6 +100,8 @@ class AddPostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, 
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+   
 
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, UpdateView):
@@ -113,6 +114,19 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
+
+
+class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, DeleteView):
+    model = Post
+    template_name = 'delete_post.html'
+    success_message = 'Your Post Has Been Deleted'
+    success_url = reverse_lazy('home')
 
     def test_func(self):
         post = self.get_object()
