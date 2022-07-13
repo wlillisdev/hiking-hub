@@ -12,6 +12,7 @@ from django.urls import reverse_lazy
 
 
 
+
 def index(request):
     """ Returns index.html """
     return render(request, 'index.html')

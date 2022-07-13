@@ -30,7 +30,14 @@
                                 <h4 class="card-title"> <i class="fas fa-map-marker-alt"></i> Location - {{ post.location }}</h4>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
-                               
+                            <div class="col mt-2 mb-3">
+                                {% if user.id == post.author.id %}
+                                <a href="{% url 'update_post' post.slug %}" class="edit"><button class="btn btn-signup btn-md"
+                                        value="{{ post.slug }}" type="button">Edit</button></a>
+                                <a href="{% url 'delete_post' post.slug %}" class="confirm-delete delete"><button class="btn btn-danger"
+                                        value="{{ post.slug }}" type="button">Delete</button></a>
+                                {% endif %}
+                            </div>
                             <hr/>
                             <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
