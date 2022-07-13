@@ -1,6 +1,6 @@
-from .models import Comment, Post
+from django_summernote.widgets import SummernoteWidget
 from django import forms
-from django_summernote.widgets import SummernoteWidget, SummernoteInplaceWidget
+from .models import Comment, Post
 
 
 class CommentForm(forms.ModelForm):
@@ -29,9 +29,9 @@ class PostForm(forms.ModelForm):
 
         ]
 
-        widgets = {
-            'content': SummernoteWidget(),
-        }
+        # widgets = {
+        #     'content': SummernoteWidget(),
+        # }
 
     def __init__(self, *args, **kwargs):
         super(PostForm, self).__init__(*args, **kwargs)
