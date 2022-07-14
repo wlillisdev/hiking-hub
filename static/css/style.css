@@ -192,6 +192,22 @@ a:hover {
     border: none;
 }
 
+.delete-post-title{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+    
+}
+
+.btn-div-delete{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+
 @media screen and (max-width: 767px) {
     .post-title {
         margin-top: 10px;
