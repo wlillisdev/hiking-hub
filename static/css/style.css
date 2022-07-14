@@ -29,7 +29,7 @@ a:hover {
 
 
 
-.thin {
+/* .thin {
     font-weight: 300;
 }
 
@@ -43,22 +43,27 @@ a:hover {
 
 .main-bg {
     background-color: #F9FAFC;
-}
+} */
 
 .card {
-    border: none;
+    
     background-color: transparent;
+}
+
+.card-title{
+    color: rgb(33,37,41); 
+}
+
+.card-text{
+    color: rgb(33,37,41);
 }
 
 .image-container {
     position: relative;
 }
 
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
+.author-card  {
+    text-align: center;
     background-color: green;
 }
 
@@ -109,7 +114,7 @@ a:hover {
 
 .post-link:hover,
 .page-link {
-    color: #10e87c;
+    color: rgb(39, 198, 39);
 }
 
 .post-title {
@@ -122,7 +127,7 @@ a:hover {
     color: lightgray;
 }
 
-.btn-signup {
+/* .btn-signup {
     background-color: #23BBBB;
     color: #fff;
 }
@@ -131,12 +136,9 @@ a:hover {
 .btn-signup:active {
     background-color: #fff;
     color: #23BBBB;
-}
+} */
 
-.link {
-    color: #23BBBB;
-    text-decoration: none;
-}
+
 
 .link:hover,
 .link:active {
