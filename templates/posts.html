@@ -32,9 +32,9 @@
                             </a>
                             <div class="col mt-2 mb-3">
                                 {% if user.id == post.author.id %}
-                                <a href="{% url 'update_post' post.slug %}" class="edit"><button class="btn btn-success btn-sm"
+                                <a href="{% url 'update_post' post.slug %}" class="edit"><button class="btn btn-success btn-sm edit-post-btn"
                                         value="{{ post.slug }}" type="button">Update Post</button></a>
-                                <a href="{% url 'delete_post' post.slug %}" class="confirm-delete delete"><button class="btn btn-danger btn-sm"
+                                <a href="{% url 'delete_post' post.slug %}" class="confirm-delete delete"><button class="btn btn-danger btn-sm delete-post-btn"
                                         value="{{ post.slug }}" type="button">Delete Post</button></a>
                                 {% endif %}
                             </div>
