@@ -37,22 +37,22 @@
     <div class="row">
         <div class="col card mb-4  mt-3 left  top">
             <div class="card-body">
-                <h5>Details</h5>               
-                <p class="card-text ">
-                    <i class="fas fa-map-marker-alt"></i> <b>Location</b> = {{ post.location | safe }}
+                <h5 class="post-test-color">Details</h5>               
+                <p class="card-text icon-text">
+                    <i class="fas fa-map-marker-alt"></i> Location = {{ post.location | safe }}
                 </p>
-                <p class="card-text ">
-                    <i class="fas fa-ruler-vertical"></i> <b>Distance</b> = {{ post.distance | safe }}
+                <p class="card-text icon-text">
+                    <i class="fas fa-ruler-vertical"></i> Distance = {{ post.distance | safe }}
                 </p>
-                <p class="card-text ">
-                    <i class="fas fa-clock"></i> <b>Duration</b> = {{ post.time | safe }}
+                <p class="card-text icon-text">
+                    <i class="fas fa-clock"></i> Duration = {{ post.time | safe }}
                 </p>
-                <p class="card-text ">
-                    <i class="fas fa-mountain"></i></i> <b>Difficulty</b> = {{ post.difficulty | safe }}
+                <p class="card-text icon-text">
+                    <i class="fas fa-mountain"></i></i> Difficulty = {{ post.difficulty | safe }}
                 </p>
                 <hr>
                 <p class="card-text ">
-                    <h3>Hike Review</h3>
+                    <h5 class="post-test-color">Hike Review</h5>
                     {{ post.content | safe }}
                 </p>
                 <div class="row">

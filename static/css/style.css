@@ -25,11 +25,17 @@ a:hover {
     color: whitesmoke;
 }
 
-.form-inline {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-  }
+
+.icon-text {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.post-test-color{
+    color: green;
+    font-weight: bold;
+}
+
 
 /* .thin {
     font-weight: 300;
