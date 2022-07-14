@@ -16,6 +16,8 @@ a:hover {
 }
 
 
+
+
 .logo {
     font-family: Lato, sans-serif;
     font-size: 1.6rem;
@@ -23,7 +25,11 @@ a:hover {
     color: whitesmoke;
 }
 
-
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
 
 /* .thin {
     font-weight: 300;

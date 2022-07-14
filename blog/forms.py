@@ -15,7 +15,7 @@ class PostForm(forms.ModelForm):
     """
     class Meta:
         model = Post
-        fields = [
+        fields = (
             'title',
             # 'slug',
             'location',
@@ -26,8 +26,7 @@ class PostForm(forms.ModelForm):
             'time',
             'difficulty',
             # 'status',
-
-        ]
+        )
 
         # widgets = {
         #     'content': SummernoteWidget(),
