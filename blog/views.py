@@ -17,6 +17,10 @@ def index(request):
     """ Returns index.html """
     return render(request, 'index.html')
 
+def about(request):
+    """ Displays about.html """
+    return render(request, 'about.html')
+
 
 class PostList(ListView):
     """ Returns list of blog posts """

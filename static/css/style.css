@@ -149,7 +149,6 @@ a:hover {
 
 .post-title {
     margin-top: 15%;
-    /* margin-left: 5%; */
 }
 
 .post-subtitle {
@@ -168,7 +167,9 @@ a:hover {
     color: #23BBBB;
 } */
 
-
+a:link {
+    text-decoration: none;
+  }
 
 .link:hover,
 .link:active {
@@ -238,9 +239,14 @@ a:hover {
     
 }
 
-.btn-div-delete{
+.btn-div-delete { 
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+
+#about-footer {
+   padding-left: 15px;
 }
 
 /* Media Queries */
