@@ -36,6 +36,13 @@ a:hover {
     margin-right: 10px;
 }
 
+#icon-home-grey {
+    color: grey;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
 .logo {
     font-family: Lato, sans-serif;
     font-size: 1.6rem;
