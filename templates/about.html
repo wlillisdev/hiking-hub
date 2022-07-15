@@ -5,65 +5,21 @@
 {% block content %}
 
     <section>
-        <!-- Hero Banner -->
-        <div id="hero-image" class="container-fluid hero-container"
-            style="background-image: url(https://res.cloudinary.com/dquffivjp/image/upload/v1657567117/hero_image_mutlzr.jpg)">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="text-center hero-box">
-                        <h1 id="hero-heading"><i class="fas fa-hiking fa-lg"></i> Hiking Hub</h1>
-                        <!-- If User is registered run this -->
-                        {% if user.is_authenticated %}
-                        <h4 class="hero-text"> Welcome back {{ user | title }}</h4>
-                        <br>
-                        <form action="{% url 'posts' %}" method="get">
-                            <button class="btn btn-primary">View Posts</button>
-                        </form>
-                        <br>
-                        <h4 class="hero-text">Check Out the Latest Posts</h4>
-                        <!-- If User not registered run this -->
-                        {% else %}
-                        <h4 class="hero-text">Join our Community</h4>
-                        <h4 class="hero-text">Discover Hidden Hikes & Trails</h4>
-                        <h5 class="hero-text">Sign up today to start sharing your latests hiking adventuers!</h5>
-                        <form action="{% url 'account_signup' %}" method="get">
-                            <br>
-                            <button class="btn btn-primary">Sign
-                                Up</button>
-                        </form>
-                        <br>
-                        <h5 class="hero-text">You will need to sign up to post,comment or like posts</h5>
-                        {% endif %}
-                    </div>
+                <div class="col-md-4 mt-3">                    
+                    <img class="img-fluid"
+                    src="{% static 'images/landscape.jpg' %}" alt="Tasty Blog Logo Image">
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <!-- Why Join us Section -->
-        <div class="container features-container content-container">
-            <div class="row">
-                <div class="col-12 page-header">
-                    <h4 class="text-center mt-3 mb-2">Why Join Us ?</h4>
+                <div class="col-md-8">
+                    <h1 class="heading-about">About Us</h1>
                     <hr>
-                </div>
-            </div>
-            <div class="row g-0">
-                <div class="col-md-6 mt-2">
-                    <h2 class="feature-head text-center"><i class="fas fa-map-marked-alt" id="icon-home-green"></i> Discover New Hikes</h2>
-                    <p class="text-center">Share, Explore and enjoy new hikes and trails from all over Ireland</p>
-                    <h2 class="feature-head text-center"><i class="fas fa-users" id="icon-home-grey"></i> Hiking Community</h2>
-                    <p class="text-center">Join and be part of a thriving online hiking Community.</p>
-                    <h2 class="feature-head text-center"><i class="fas fa-thumbs-up" id="icon-home-black"></i> Real Reviews</h2>
-                    <p class="text-center">Post your Hike review,Like & Comment on posts uploaded from other users,Content
-                        Fully Moderated.</p>
-                    <h2 class="feature-head text-center"><i class="fas fa-heartbeat" id="icon-home-red"></i> Health Benefits</h2>
-                    <p class="text-center"> Hiking is an excellent aerobic work out it improves your respiratory and
-                        cardiovascular health</p>
-                </div>
-                <div class="col-md-6 mt-2 mb-5">
-                    <img src="{% static 'images/people_hiking.jpg' %}" class="img-fluid" alt="People Hiking">
+                    <p class="mt-3 text-justify">
+                        Our goal here is to publish recipes that you, your family and your friends
+                        will not only love but will want to make time and time again. We hope to inspire you as a home
+                        cook and boost your confidence in the kitchen. Life is meant to be enjoyed and doesn’t good food
+                        just make it more enjoyable? Please follow along and let's create something delicious!</p>
                 </div>
             </div>
         </div>

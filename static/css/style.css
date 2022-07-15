@@ -61,23 +61,6 @@ a:hover {
     font-weight: bold;
 }
 
-
-/* .thin {
-    font-weight: 300;
-}
-
-.light-bg {
-    background-color: #fff;
-}
-
-.dark-bg {
-    background-color: #445261;
-}
-
-.main-bg {
-    background-color: #F9FAFC;
-} */
-
 .card {
     
     background-color: transparent;
@@ -111,15 +94,6 @@ a:hover {
     text-transform: uppercase;
 }
 
-/* .masthead {
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    height: 60vh;
-    width: 100%;
-} */
-
 .banner-post {
     background-color: rgb(0,128,0);
     color: white;
@@ -136,7 +110,6 @@ a:hover {
     color: #445261;
 }
 
-
 .edit-post-btn:hover{
     background-color: grey;
 }
@@ -144,8 +117,6 @@ a:hover {
 .delete-post-btn:hover{
     background-color: grey;
 }
-
-
 
 .post-title {
     margin-top: 15%;
@@ -155,17 +126,6 @@ a:hover {
     margin-left: 5%;
     color: lightgray;
 }
-
-/* .btn-signup {
-    background-color: #23BBBB;
-    color: #fff;
-}
-
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
-} */
 
 a:link {
     text-decoration: none;
@@ -196,7 +156,6 @@ a:link {
 
 #hero-heading {
     color: white;
-    /* font-size: 3rem; */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-transform: uppercase;
@@ -205,23 +164,11 @@ a:link {
 
 .hero-text {
     color: white;
-    /* font-size: 2rem; */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-transform: uppercase;
     font-weight: bold;
 }
-
-
-
-
-/* .hero-box {
-    background-color: #000;
-    color: #fff;
-    opacity: .7;
-    z-index: -1;    
-} */
-
 
 .btn-like:hover,
 .btn-like:active {
@@ -235,8 +182,6 @@ a:link {
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 10px;
-
-    
 }
 
 .btn-div-delete { 
@@ -244,9 +189,14 @@ a:link {
     margin-bottom: 20px;
 }
 
-
 #about-footer {
    padding-left: 15px;
+}
+
+.heading-about {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 /* Media Queries */
