@@ -15,8 +15,26 @@ a:hover {
     background-color: grey;
 }
 
+#icon-home-green {
+    color: green;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
 
+#icon-home-red {
+    color: red;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
 
+#icon-home-black {
+    color: black;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
 
 .logo {
     font-family: Lato, sans-serif;
