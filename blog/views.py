@@ -68,8 +68,7 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
-            messages.success(request, 'Comment Was Successfully Added & Waiting Aproval')
-            
+            messages.success(request, 'Comment Was Successfully Added & Waiting Approval')
         else:
             comment_form = CommentForm()
 
@@ -113,7 +112,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
     form_class = PostForm
     template_name = 'update_post.html'
     success_message = 'Your Post Has Been Updated'
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('posts')
 
     def form_valid(self, form):
         form.instance.author = self.request.user
