@@ -125,13 +125,27 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
         return False
 
 
-class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, DeleteView):
     model = Post
     template_name = 'delete_post.html'
+    success_message = 'Your Post Has Been Deleted'
     success_url = reverse_lazy('home')
+    
 
     def test_func(self):
         post = self.get_object()
         if self.request.user == post.author:
             return True
         return False
+
+
+def error_404(request, exception):
+    """ 404 error handler  """
+    return render(request, '404.html', status=404)
+
+
+def error_403(request):
+    """ 403 forbidden error handler """
+    return render(request, '403.html', status=403)
+
+

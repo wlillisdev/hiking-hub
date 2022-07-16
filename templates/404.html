@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+    <div class="container">
+        <div class="row border border-danger mt-3">
+            <div class="col-8 offset-2 mt-3 mb-3 text-center">
+                <form method="POST">
+                    {% csrf_token %}
+                    <fieldset class="form-group">
+                        <legend class="border-bottom mb-4 delete-post-title"><i class="fas fa-exclamation-triangle"></i>  Delete Blog Post  <i class="fas fa-exclamation-triangle"></i></legend>
+                        <h5>You are lost "{{ object.title }}"</h5>
+                    </fieldset>
+                    <div class="btn-div-delete">
+                        <button class="btn btn-danger delete-post-btn" type="submit">Yes I Want To Delete</button>
+                        <a class="btn btn-success edit-post-btn" href="{% url 'home' %}">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+{% endblock content %}
