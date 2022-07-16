@@ -17,7 +17,6 @@ class PostForm(forms.ModelForm):
         model = Post
         fields = (
             'title',
-            # 'slug',
             'location',
             'excerpt',
             'featured_image',
@@ -25,7 +24,6 @@ class PostForm(forms.ModelForm):
             'distance',
             'time',
             'difficulty',
-            # 'status',
         )
 
         widgets = {

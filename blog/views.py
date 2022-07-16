@@ -99,14 +99,11 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     form_class = PostForm
     template_name = 'add_post.html'
     success_message = 'Your Post Has Been Submitted & is Awaiting Approval'
-    success_url = reverse_lazy('home')
+    success_url = reverse_lazy('posts')
 
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-
-   
-
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, UpdateView):
     model = Post
