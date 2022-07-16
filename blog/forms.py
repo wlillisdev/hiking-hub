@@ -28,9 +28,9 @@ class PostForm(forms.ModelForm):
             # 'status',
         )
 
-        # widgets = {
-        #     'content': SummernoteWidget(),
-        # }
+        widgets = {
+            'content': SummernoteWidget(),
+        }
 
     def __init__(self, *args, **kwargs):
         super(PostForm, self).__init__(*args, **kwargs)

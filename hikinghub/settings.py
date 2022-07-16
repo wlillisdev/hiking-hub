@@ -170,3 +170,16 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SUMMERNOTE_THEME = 'bs4'  # Show summernote with Bootstrap4
+
+SUMMERNOTE_CONFIG = {
+    'toolbar': [
+            ['font', ['bold', 'underline', 'italic', 'clear']],
+            ['para', ['ul', 'ol']],
+            ['color', ['color']],
+            ['insert', ['link', 'picture', 'video']],
+        ],
+    'height': 300,
+    'width': '100%',
+}
