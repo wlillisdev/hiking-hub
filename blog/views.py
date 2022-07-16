@@ -2,6 +2,7 @@
 
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import View
+from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, UserPassesTestMixin
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
@@ -67,6 +68,8 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
+            messages.success(request, 'Comment Was Successfully Added & Waiting Aproval')
+            
         else:
             comment_form = CommentForm()
 
@@ -123,10 +126,9 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
         return False
 
 
-class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, DeleteView):
+class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Post
     template_name = 'delete_post.html'
-    success_message = 'Your Post Has Been Deleted'
     success_url = reverse_lazy('home')
 
     def test_func(self):
