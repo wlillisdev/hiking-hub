@@ -8,15 +8,15 @@
     <div class="container log-box">
         <div class="row justify-content-md-center">
             <div class="col-md-6 mt-4 text-center">
-                <h1>Access Forbidden</h1>
+                <h1>500 Error</h1>
                 <br>
-                <h3>WHOOPS You Should Not Be Here,Please Leave Now....</h3>
+                <h3>Whoops! Something went wrong an internal error has occured.</h3>
                 <br>
-                <div class="btn-div-delete">
-                    <a class="btn btn-success edit-post-btn" href="{% url 'home' %}">Exit Now</a>
-                </div>
+            </div>
+            <div class="btn-div-delete">
+                <a class="btn btn-success edit-post-btn" href="{% url 'home' %}">Exit Now</a>
             </div>
         </div>
     </div>
-    
+
 {% endblock content %}
