@@ -39,9 +39,9 @@ The website has been designed to operate on a number of screens and devices.The 
  [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
 
 __Favicon__
- - As the company logo is a question mark i combined this with yellow branding to make an eye catching Favicon.
+ - As hiking is the theme of the website an icon of a person hiking was used, I came across a solution on stack overflow on how to turn font awsome logo in to favicon. Click [here](https://gauger.io/fonticon/)
   
-![favicon](assets/readme/favicon-new.png)
+![favicon](static/readme/favicon_home.png)
 
 __Navigation Bar__
  
