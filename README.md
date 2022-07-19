@@ -2,14 +2,16 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-<<<<<<< HEAD
 ![Home page Quizz Master](assets/readme/image-home-new.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
 
 # Aim of Website
 
-The goal of this website is to create an active hiking community that can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails in a particular area.
+The goal of this website is to create an active vibriant hiking community that can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland
+
+# Target Audience
+ - Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you have a guide,experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
 
 
 # User Stories
@@ -336,9 +338,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 
 
-   
 
-=======
 ![Home page Hiking Hub](assets/readme/image-home-new.png)
 
 This website is designed for Hiking Hub. The go to blog and resource for everything to do with hiking in Ireland.
@@ -722,11 +722,3 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
     - If I was to build this site again, I would spend more time on the wireframes and know exactly how to structure each section and element before i start.
     - If i had time i would like to add a timer function to the quizz.    
     - I would also learn to make more commits during the project built.
-
-
-
-   
-
->>>>>>> 0c42e8296be9065321082d007149751d1dadfecc
-
-
