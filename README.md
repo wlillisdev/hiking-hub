@@ -48,12 +48,30 @@ Hiking is suitable for everybody and any age group. But it is recommended that u
 
 
 # Agile Approach to Project Devopment
- - An agile approach was used in order to devlop and build the Hiking Hub. Each activity was broken down into smaller more manageable packages. This Agile irrativte approach to project managemnt will ensure that working project will be devloped quicker and with fewer problems.
+ - An agile approach was used in order to devlop and build the Hiking Hub. Each activity was broken down into smaller more manageable packages. This Agile irrativte approach to project managemnt will ensure that the final working project will be devloped faster and with fewer problems.
 
  -  MoSCoW 
-    - I will also implement the MoSoCoW method which is a four-step approach to prioritizing project requirements. This will proritise the essential project requirments that will need to be delivered in the first itteration. Unique labels were created in in github project to be applied to easily filter and identify requirements.
+    - I will also implement the MoSoCoW method which is a four-step approach to prioritising project requirements. This will proritise the essential project requirments that will need to be delivered in the first itteration. Unique labels were created in in github project to be applied to easily filter and proritise issues.
 
     <img src="static/readme/moscow.png" alt="moscow" width="250"/>
+
+ -  User Stories
+    - The whole project was broken down into a total of 18 user stories and documents in github as Github Issues. 
+    - [View 18 User Stories](https://github.com/wlillisdev/hiking-hub/issues)
+    - Each user story was further broken down in to the accecpatance critea for each user story and the tasks that will have to be carried out in order to deliver this user story sucessfully.
+    ![Detail of Issue](static/readme/user_story.png)
+    - Each user story was then given a label from MoSCoW to identify the most important and essentail elements that would need to be deliverd in the first itteration of the project.
+    - [View Some Must Have user stories](static/readme/must_have.png)
+    - The users stories with the help of MOSCOW were broken down into 2 iterations. Iteration one would deliver a fully funtioning website with key featuers. And iteration2 would deliver the remaining featuers that were not delivered in itteration 1 to be completed at a later date.
+    - [View Itererations](https://github.com/wlillisdev/hiking-hub/milestones)
+    - The focus then went to the Kanban board created in github. This was used to project manage and track the progress of each issue.
+    - [View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
+
+    <img src="static/readme/kanban_board.png" alt="kanban_board" width="550"/>
+
+    
+
+
 
 
 
