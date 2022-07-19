@@ -1,10 +1,10 @@
-# Quiz Master
+# Hiking Hub
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
 ![Home page Quizz Master](assets/readme/image-home-new.png)
 
-This website is designed for Quiz Master who is an online quizz company. Their aim is to become the market  leader in online quizzes and be a hub for quizz lovers all over the world.
+This website is designed for Hiking. Their aim is to become the trusted and go to blog for everything to do with hiking in ireland.
 
 # Aim of Website
 
