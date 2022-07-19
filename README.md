@@ -2,18 +2,20 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![Home page Quizz Master](assets/readme/image-home-new.png)
+![Home page Hiking Hub](assets/readme/image-home-new.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
 
 # Aim of Website
 
-The goal of this website is to create an active  hiking community blog. So that users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
+The goal of this website is to create an active hiking community blog. To provide a platform so users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
 
 # Target Audience
+
  Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
 
 # User Experience (UX)
+
 ### User Stories
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
@@ -39,13 +41,31 @@ The goal of this website is to create an active  hiking community blog. So that 
   - As a super user, I want to be able to approve or delete comments.
 
 
-# Agile approach to project devlopment
+# Agile Approach to Project Devlopment
+
 An agile approach was taken in the devlopment of this project. The project will be  disected into smaller parts and an iterative approach to project management and software development will be used to achieve faster development of the project and optomise time usage.
 
 - MoSoCoW Method:
   - I will also aim to intergate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requiremnets need to be carried out first in order to achieve project goals and user stories with the first iteration been a fully functioning website. Custom labels will be created in github and allocated to each requirment so they can be easily filtered and identified.
 
   <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
+
+- User Stories
+  - The whole project was broken down in 18 indivudal user stories,each user story was a self contined devlopemnt mini project that helped reach the overall goal of the website.They were enter into github as github issues.
+  - [View List of 18 User Stories](https://github.com/wlillisdev/hiking-hub/issues)
+  - Specific accecptance critea was allocated for each user story and a list of  tasks were also established. Each task would need to be completed so accecptance critea is met.See example below.
+  ![Issue Example](static/readme/user_story.png)
+  - The Moscow method was then applied to eash user story. And tags were applied to order to priortise the order of work.
+  - [Example MOSCOW tags](static/readme/must_have.png)
+  - The users stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the inital launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
+  [Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
+  
+ 
+
+
+
+
+
 
 
 
