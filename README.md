@@ -56,9 +56,12 @@ An agile approach was taken in the devlopment of this project. The project will 
   - Specific accecptance critea was allocated for each user story and a list of  tasks were also established. Each task would need to be completed so accecptance critea is met.See example below.
   ![Issue Example](static/readme/user_story.png)
   - The Moscow method was then applied to eash user story. And tags were applied to order to priortise the order of work.
-  - [Example MOSCOW tags](static/readme/must_have.png)
+  - [Example of MOSCOW tags](static/readme/must_have.png)
   - The users stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the inital launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
-  [Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
+  - [View Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
+  - A Kanban board was set up in github in order to manage the various project user stories. It was devided into 3 main area. To Do, In Progress,Done,
+  ![Kanban Board](static/readme/kanban_board.png)
+  -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
   
  
 
