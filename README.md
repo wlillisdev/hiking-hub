@@ -4,20 +4,11 @@
 
 ![Home page Quizz Master](assets/readme/image-home-new.png)
 
-This website is designed for Hiking. Their aim is to become the trusted and go to blog for everything to do with hiking in ireland.
+This website is designed for Hiking Hub. Their aim is to become the trusted and go to blog for everything to do with hiking in ireland.
 
 # Aim of Website
 
-The goal of the website is to create a trustworthy  online resource for users from all over the world to play quizzes & learn interesting  facts. Currently there are 4 main quiz topics.
-
-- ### Triva
-- ### Sport
-- ### Film
-- ### Music
-
-Each quiz has multiple choice answers giving the user a choice  of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
-The user is also given the answers after the quiz so they can see where they went wrong and build a level of trust between the user and the site.
-The site will be targeted toward  Adults initally, but with the aim to also build out children’s quizzes and more interactivity at a later stage.
+The goal of the website is to create an active and vibrant hiking community. It will provide a platform where users can post thier latests hiking adventuers. And for other users to interact and discuss diffrent hikes get hints and tips and find hidden gems of hikes and trails all over Ireland.
 
 
 # User Stories
