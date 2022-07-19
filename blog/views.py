@@ -1,5 +1,4 @@
 """Views"""
-
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import View
 from django.contrib import messages
@@ -15,6 +14,7 @@ from .forms import CommentForm, PostForm
 def index(request):
     """ Returns index.html """
     return render(request, 'index.html')
+
 
 def about(request):
     """ Displays about.html """
@@ -107,6 +107,7 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
+
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, UpdateView):
     model = Post
     form_class = PostForm
@@ -130,7 +131,6 @@ class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
     template_name = 'delete_post.html'
     success_message = 'Your Post Has Been Deleted'
     success_url = reverse_lazy('home')
-    
 
     def test_func(self):
         post = self.get_object()
@@ -152,5 +152,3 @@ def error_403(request):
 def error_500(request):
     """ 500 error handler """
     return render(request, '500.html', status=500)
-
-
