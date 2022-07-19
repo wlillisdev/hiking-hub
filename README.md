@@ -2,25 +2,45 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![Home page Quizz Master](assets/readme/image-home-new.png)
+![Home page Hiking Hub](assets/readme/image-home-new.png)
 
-This website is designed for Hiking Hub. Their aim is to become the trusted and go to blog for everything to do with hiking in ireland.
+This website is designed for Hiking Hub. The go to blog and resource for everything to do with hiking in Ireland.
 
 # Aim of Website
 
-The goal of the website is to create an active and vibrant hiking community. It will provide a platform where users can post thier latests hiking adventuers. And for other users to interact and discuss diffrent hikes get hints and tips and find hidden gems of hikes and trails all over Ireland.
+The goal of the website is to create an active and vibrant hiking community. It will provide a platform where users can post their latest’s hiking adventures. And for other users to interact and discuss different hikes get hints and tips and find hidden gems of hikes and trails all over Ireland.
 
+# Target Audience
 
-# User Stories
+Hiking is suitable for everybody and any age group. But it is recommended that users be aware of the risks involved in hiking and never undertake a difficult hike if they don’t have a guide, experience ,suitable equipment or clothing. Primarily the audience will be aimed at hiking enthusiasts 25+ based in Ireland.
+
+# User Experience (UX)
+
+### User Stories
+
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
-  - As a first-time visitor, I want to quickly learn what type of quizzes are on offer.
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
+  - As a first-time visitor, I want to quickly view a summary of blog posts on a page.
+  - As a first-time visitor, I want to click on blog post and view it full post in detail.
+  - As a first-time visitor, I want to sign up and register an account so i can have full access to site.
+  - As a first-time visitor, I want view comments and likes on a post to see the most popular posts quickly
 
-- Returning Visitors Aims:
+  
+  
+  
+- Returning Visitors Aims (logged in users):
   - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
   - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
+
+  
+- As a site Admin Super User:
+  - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
+  - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
+  - As a returning visitor, I would like to find links to their social media channels and follow them.
+
+# Agile Approach 
 
 # Responsive 
 The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
