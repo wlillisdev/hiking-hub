@@ -22,25 +22,26 @@ Hiking is suitable for everybody and any age group. But it is recommended that u
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
   - As a first-time visitor, I want to quickly view a summary of blog posts on a page.
-  - As a first-time visitor, I want to click on blog post and view it full post in detail.
-  - As a first-time visitor, I want to sign up and register an account so i can have full access to site.
+  - As a first-time visitor, I want to click on blog post and view it full contents in detail.
+  - As a first-time visitor, I want to sign up and register an account so I can have full access to site.
   - As a first-time visitor, I want view comments and likes on a post to see the most popular posts quickly
 
   
-  
-  
 - Returning Visitors Aims (logged in users):
-  - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
-  - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
+ 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
-  
 - As a site Admin Super User:
-  - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
-  - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
+  - As a returning visitor, I would like new blog posts.
+  - As a returning visitor, I would like add a blog post.
+  - As a returning visitor, I would like like or unlike a blog post or manke a comment.
+  - As a returning visitor, I would like like update a previous blog post i made with new content.
+  - As a returning visitor, I would like like to be able to delete a blog post i created.
+  - As a returning visitor, I would like to be able to log out of my account.
+  - As a returning visitor, I want to learn more about the hiking hub 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
-# Agile Approach 
+# Agile Approach to project Devopment 
 
 # Responsive 
 The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
