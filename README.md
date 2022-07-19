@@ -8,11 +8,11 @@ This website is designed for Hiking Hub. The go to blog and resource for everyth
 
 # Aim of Website
 
-The goal of the website is to create an active and vibrant hiking community. It will provide a platform where users can post their latest’s hiking adventures. And for other users to interact and discuss different hikes get hints and tips and find hidden gems of hikes and trails all over Ireland.
+The goal of the website is to create an active and vibrant hiking community online. It will provide a platform where users can post their latest’s hiking adventures. And for other users to interact and discuss different hikes get hints and tips and find hidden gems of hikes and trails all over Ireland.
 
 # Target Audience
 
-Hiking is suitable for everybody and any age group. But it is recommended that users be aware of the risks involved in hiking and never undertake a difficult hike if they don’t have a guide, experience ,suitable equipment or clothing. Primarily the audience will be aimed at hiking enthusiasts 25+ based in Ireland.
+Hiking is suitable for everybody and any age group. But it is recommended that users be aware of the risks involved in hiking and never undertake a difficult hike if they don’t have a guide, experience, suitable equipment or clothing. Primarily the audience will be aimed at the hiking enthusiasts 25+ based in Ireland.
 
 # User Experience (UX)
 
@@ -29,17 +29,23 @@ Hiking is suitable for everybody and any age group. But it is recommended that u
   
 - Returning Visitors Aims (logged in users):
  
+  - As a returning visitor, I would like to view new blog posts.
+  - As a returning visitor, I would like to add my own blog post.
+  - As a returning visitor, I would like to be able to like or unlike and comment on blog posts.
+  - As a returning visitor, I would like like to update a previous blog post I created.
+  - As a returning visitor, I would like to be able to delete a previous blog post I created.
+  - As a returning visitor, I would like to be able to log out of my account.
+  - As a returning visitor, I want to learn more about the hiking hub.
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
 - As a site Admin Super User:
-  - As a returning visitor, I would like new blog posts.
-  - As a returning visitor, I would like add a blog post.
-  - As a returning visitor, I would like like or unlike a blog post or manke a comment.
-  - As a returning visitor, I would like like update a previous blog post i made with new content.
-  - As a returning visitor, I would like like to be able to delete a blog post i created.
-  - As a returning visitor, I would like to be able to log out of my account.
-  - As a returning visitor, I want to learn more about the hiking hub 
-  - As a returning visitor, I would like to find links to their social media channels and follow them.
+  - As a superuser, I would like to create a blog post from the admin panel.
+  - As a superuser, I would like create a draft blog post so i can finish at a later point.
+  - As a superuser, I would like to be able to apply filters to find and sort information.
+  - As a superuser, I would like to review all blog posts before they are published to site.
+  - As a superuser, I would like to review all comments before they are published to site.
+  - As a superuser, I would like to be able to delete,useres,blog posts and comments.
+
 
 # Agile Approach to project Devopment 
 
