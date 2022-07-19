@@ -8,10 +8,10 @@ This website is designed for Hiking Hub. Their aim is to become the go to blog f
 
 # Aim of Website
 
-The goal of this website is to create an active  hiking community blob. So that users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
+The goal of this website is to create an active  hiking community blog. So that users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
 
 # Target Audience
- - Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
+ Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
 
 # User Experience (UX)
 ### User Stories
@@ -40,6 +40,14 @@ The goal of this website is to create an active  hiking community blob. So that 
 
 
 # Agile approach to project devlopment
+An agile approach was taken in the devlopment of this project. The project will be  disected into smaller parts and an iterative approach to project management and software development will be used to achieve faster development of the project and optomise time usage.
+
+- MoSoCoW Method:
+  - I will also aim to intergate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requiremnets need to be carried out first in order to achieve project goals and user stories with the first iteration been a fully functioning website. Custom labels will be created in github and allocated to each requirment so they can be easily filtered and identified.
+
+  <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
+
+
 
 
 
