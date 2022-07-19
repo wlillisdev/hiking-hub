@@ -8,22 +8,45 @@ This website is designed for Hiking Hub. Their aim is to become the go to blog f
 
 # Aim of Website
 
-The goal of this website is to create an active vibriant hiking community that can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland
+The goal of this website is to create an active  hiking community blob. So that users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
 
 # Target Audience
- - Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you have a guide,experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
+ - Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
 
-
-# User Stories
+# User Experience (UX)
+### User Stories
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
-  - As a first-time visitor, I want to quickly learn what type of quizzes are on offer.
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
+  - As a first-time visitor, I want to be able to register and create an account to get full access to blog
+  - As a first-time visitor, I want to quickly view a summary of blog posts on one page.
+  - As a first-time visitor, I want to click on a blog post and view the post in detail.
+  - As a first-time visitor, I want to be able to see comments and the amount of likes on a blog post.
 
-- Returning Visitors Aims:
-  - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
-  - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
+- Returning Visitors Aims (logged in):
+  - As a returning visitor, I would like to be able to add a blog post of my hike.
+  - As a returning visitor, I would like to be able to update the content on my blog post.
+  - As a returning visitor, I would like to be able to delete my blog post.
+  - As a returning visitor, I would like to be able to comment and like and unlike a blog post.
+  - As a returning visitor, I would like to be able to quickly log in and log out of my account.
   - As a returning visitor, I would like to find links to their social media channels and follow them.
+
+- Admin super user Aims:
+  - As a super user, I want to be able create a blog post from admin panel.
+  - As a super user, I want to be able create a draft post so i can finish at a later date.
+  - As a super user, I want to be able filter and search through data quickly and easily.
+  - As a super user, I want to be able to approve or Delete users blog posts.
+  - As a super user, I want to be able to approve or delete comments.
+
+
+# Agile approach to project devlopment
+
+
+
+
+
+
+
 
 # Responsive 
 The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
