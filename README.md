@@ -47,7 +47,15 @@ Hiking is suitable for everybody and any age group. But it is recommended that u
   - As a superuser, I would like to be able to delete,useres,blog posts and comments.
 
 
-# Agile Approach to project Devopment 
+# Agile Approach to Project Devopment
+ - An agile approach was used in order to devlop and build the Hiking Hub. Each activity was broken down into smaller more manageable packages. This Agile irrativte approach to project managemnt will ensure that working project will be devloped quicker and with fewer problems.
+
+ -  MoSCoW 
+    - I will also implement the MoSoCoW method which is a four-step approach to prioritizing project requirements. This will proritise the essential project requirments that will need to be delivered in the first itteration. Unique labels were created in in github project to be applied to easily filter and identify requirements.
+
+    <img src="static/readme/moscow.png" alt="moscow" width="250"/>
+
+
 
 # Responsive 
 The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
