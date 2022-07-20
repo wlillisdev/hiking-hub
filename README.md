@@ -64,21 +64,6 @@ An agile approach was taken in the devlopment of this project. The project will 
   -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
   
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Responsive 
 The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
  - Homepage (displayed below)
@@ -93,7 +78,7 @@ The website has been designed to operate on a number of screens and devices.The 
 
 # Features 
 
- [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
+ [View Homepage Featuers](https://hikinghub.herokuapp.com/)
 
 __Favicon__
  - As hiking is the theme of the website an icon of a person hiking was used, I came across a solution on stack overflow on how to turn font awsome logo in to favicon. Click [here](https://gauger.io/fonticon/)
@@ -102,11 +87,17 @@ __Favicon__
 
 __Navigation Bar__
  
-  - The Navigation bar is located at the top of all  Pages. It is simple but clean design. It includes the logo, Home page, Quizzes and Contact Us page.
+  - The Navigation bar is located at the top of all  Pages. It is simple but clean design. It includes the logo, Home page, View Posts, Login & Register. this appears to users that are not logged in.
+  - If a user has logged it changes, Add Post appears and logout becomes active in the nav bar. It will also display the name of logged in user.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
-  - The nav elements also change colour when hovered over and also has an active line under each link when clicked which adds to the user experience.  
+  - The nav elements also change colour when hovered which adds to the user experience.
+  - The nav bar is responsive and collpases in to hangburger menu when on smaller screens.   
+  - The nav bar below user logged in view.
+  ![Navigation Bar When logged in](static/readme/navbar.png)
+  - The responsive nav bar below.
+  - <img src="static/readme/navbar_hamburger.png" alt="navbar hamburger" width="200"/>
 
- ![Navigation Bar](assets/readme/header-new.png)
+ 
 
 __Landing Page__
 
@@ -439,7 +430,7 @@ Hiking is suitable for everybody and any age group. But it is recommended that u
 
 
 # Agile Approach to Project Devopment
- - An agile approach was used in order to devlop and build the Hiking Hub. Each activity was broken down into smaller more manageable packages. This Agile irrativte approach to project managemnt will ensure that the final working project will be devloped faster and with fewer problems.
+ - An agile approach was used in order to devlop and build the Hiking Hub. Each activity was broken down into smaller more manageable packages. This Agile irrativte approach to project management will ensure that the final working project will be devloped faster and with fewer problems.
 
  -  MoSCoW 
     - I will also implement the MoSoCoW method which is a four-step approach to prioritising project requirements. This will proritise the essential project requirments that will need to be delivered in the first itteration. Unique labels were created in in github project to be applied to easily filter and proritise issues.
