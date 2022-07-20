@@ -102,13 +102,18 @@ __Landing Page__
 
   - The landing page contains an eye-catching background image of a beautiful landscpae with a trail by a stream and immediately catched a users attention.
   - The text on the screen clearly tells the user whats the site is about and what the user needs to do next. And they are encourage to sign up with a bold sign up button.
+  - The hero image also has a Parallax Scrolling Effect with the text.
   - The text on the home screen changes depending on if the usere is logged in or not.
   - Landing page below shows the text displayed when new user to site is not registered.
   - <img src="static/readme/landing_logged_out.png" alt="hero not logged out" width="675"/>
   - Landing page below shows the text displayed when user logged in.
   - <img src="static/readme/landing_logged_in.png" alt="hero not logged in" width="675"/>
 
- 
+__Why Join Us__
+
+- If the useres scrolls down from the hero image, looking for more information. They will come across the section why join us.
+- With the help of Font Awsome and some carefully crafted bullets points of text.It outline key aerea of why the user should sign up to this blog.
+- <img src="static/readme/why_join_us.png" alt="why join us" width="600"/>
 
 
 __About Us & Quiz Category__
