@@ -55,7 +55,7 @@ An agile approach was taken in the devlopment of this project. The project will 
   - [View List of 18 User Stories](https://github.com/wlillisdev/hiking-hub/issues)
   - Specific accecptance critea was allocated for each user story and a list of  tasks were also established. Each task would need to be completed so accecptance critea is met.See example below.
   ![Issue Example](static/readme/user_story.png)
-  - The Moscow method was then applied to eash user story. And tags were applied to order to priortise the order of work.
+  - The Moscow method was then applied to eash user story. And tags were applied to priortise the order of work.
   - [Example of MOSCOW tags](static/readme/must_have.png)
   - The users stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the inital launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
   - [View Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
@@ -98,14 +98,17 @@ __Navigation Bar__
   - <img src="static/readme/navbar_hamburger.png" alt="navbar hamburger" width="200"/>
 
  
-
 __Landing Page__
 
-  - The landing page contains an eye-catching background image of a shelves of books that infers the theme of knowledge and quizzes.
-  - The text are you ready for  is animated  on page load and catches the users attention straight  away, it is bold and white and contrasts well with background image.
-  - It also has a call to action with a button i want to play,that jumps to the category section of the homepage.
+  - The landing page contains an eye-catching background image of a beautiful landscpae with a trail by a stream and immediately catched a users attention.
+  - The text on the screen clearly tells the user whats the site is about and what the user needs to do next. And they are encourage to sign up with a bold sign up button.
+  - The text on the home screen changes depending on if the usere is logged in or not.
+  - Landing page below shows the text displayed when new user to site is not registered.
+  - <img src="static/readme/landing_logged_out.png" alt="hero not logged out" width="675"/>
+  - Landing page below shows the text displayed when user logged in.
+  - <img src="static/readme/landing_logged_in.png" alt="hero not logged in" width="675"/>
 
- ![Landing](assets/readme/landing-page.png)
+ 
 
 
 __About Us & Quiz Category__
