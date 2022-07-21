@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![Home page Hiking Hub](assets/readme/image-home-new.png)
+![Home page Hiking Hub](static/readme/intro.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
 
@@ -59,7 +59,7 @@ An agile approach was taken in the devlopment of this project. The project will 
   - [Example of MOSCOW tags](static/readme/must_have.png)
   - The users stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the inital launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
   - [View Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
-  - A Kanban board was set up in github in order to manage the various project user stories. It was devided into 3 main area. To Do, In Progress,Done,
+  - A Kanban board was set up in github in order to manage the various project user stories. It was devided into 3 main areas to track rhw progress. To Do, In Progress,Done,
   ![Kanban Board](static/readme/kanban_board.png)
   -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
   
@@ -104,9 +104,9 @@ __Landing Page__
   - The text on the screen clearly tells the user whats the site is about and what the user needs to do next. And they are encourage to sign up with a bold sign up button.
   - The hero image also has a Parallax Scrolling Effect with the text.
   - The text on the home screen changes depending on if the usere is logged in or not.
-  - Landing page below shows the text displayed when new user to site is not registered.
+  - Landing page below shows the text displayed when new user viditd the siteand is not registered.
   - <img src="static/readme/landing_logged_out.png" alt="hero not logged out" width="675"/>
-  - Landing page below shows the text displayed when user logged in.
+  - Landing page below shows the text displayed when user is logged in.
   - <img src="static/readme/landing_logged_in.png" alt="hero not logged in" width="675"/>
 
 __Why Join Us__
@@ -115,14 +115,23 @@ __Why Join Us__
 - With the help of Font Awsome and some carefully crafted bullets points of text.It outline key aerea of why the user should sign up to this blog.
 - <img src="static/readme/why_join_us.png" alt="why join us" width="600"/>
 
+__Footer__
 
-__About Us & Quiz Category__
+  - The footer is simple and clean design it is the same on all pages of the website.
+  - It contains 4 social media platforms that will also open in a new window to allow easy navigation for the user.
+  - The main aim of the footer is to increase engagement with visitors.With the goal of getting the user to subscribe to the socail channels in order to get updates on new blog post and encouraging useres to be part of the Hiking Hub Community.
 
-  - About Us section is a very brief description about Quiz Master to quickly give the user more information about the company.
-  - The Quizz Category section, quickly shows the four main quiz categories.Triva,Sport,Film,Music.
-  - Each Category will change color once hovered over, once clicked it will lead the user to the quiz page.
+ ![Footer Bar](static/readme/footer.png)
 
- ![About & Category](assets/readme/about-us-new.png)
+
+__About Us__
+
+  - About Us section is a very brief description about hiking hub to quickly give the user more information about the website and why we started up this blog.
+  - It also highlights the goals of the website so the user can understand and build trust with the blog.
+  - <img src="static/readme/about_us.png" alt="About Us" width="450"/>
+  
+
+
 
 __Fact Generator__
 
@@ -133,13 +142,7 @@ __Fact Generator__
  ![Fact Generator](assets/readme/new-fact-generator.png)
 
 
-__Footer__
 
-  - The footer is simple and clean design it is the same on all pages of the website.
-  - It contains 3 social media platforms as requested by Quizz Master they will also open in a new window to allow easy navigation for the user.
-  - The main aim of the footer is to increase engagement with visitors.With the goal of getting the user to subscribe to the channel in order to get updates on new quizzes. 
-
- ![Footer Bar](assets/readme/footer.png)
 
 - __Hoover__
 
