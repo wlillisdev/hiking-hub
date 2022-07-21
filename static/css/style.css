@@ -154,18 +154,33 @@ a:link {
     align-items: center;
     justify-content: center;
     position: relative;
+    
 
+    /* filter: grayscale(65%); */
 }
+    
+
+
+/* .hero-box{
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+} */
 
 #hero-heading {
+    margin-top: 15px;
     color: white;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
 .hero-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;

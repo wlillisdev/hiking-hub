@@ -1,8 +1,8 @@
 # Hiking Hub
 
-- You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
+- You can see the live website [here](https://hikinghub.herokuapp.com/)..
 
-![Home page Hiking Hub](static/readme/intro.png)
+![Home page Hiking Hub](static/images/edit_home_screen.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
 
