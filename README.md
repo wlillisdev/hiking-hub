@@ -164,73 +164,25 @@ __Delete Post__
   - If deleted the post will be removed from the data base and the user will be redirected to the home page.
   ![Delete Post](static/images/delete.png)
 
-__Fact Generator__
+__Sign Up__
+  - The user will be brought to a sign up form if they are new to the site and would like to set up an account. Users will have to register if they want to add posts,comment or like posts.
+  - <img src="static/images/signup.png" alt="sign up" width="400"/>
 
-  - This is a fun app that will create a new random interesting  fact every time the user clicks on the button.
-  - This is aimed at grabbing a new users attention and helping to encourage  a user to click on a quiz after playing.
-  - The button has a hover effect and will change color once clicked.
+__Log in and Log Out Pages__
+  - Users that are returning to te blog and want to log back into thier account have a simplified form  that requires just a username and password.
+  - <img src="static/images/signin_page.png" alt="log in" width="400"/>
+  - When the user has sucessfully logged in the usere will get an alert message and thier user name diplaed on the nav bar.
+  ![Logged in](static/images/signin_page_loggedin.png)
+  - When the user decides to leave and log out of thier account they will be brought to a screen that asks them are they sure they want to log out.
+  - <img src="static/images/logout.png" alt="log out" width="400"/>
+  - The user will get an alert message if they have sucessfully logged out.
+  ![Logged Out](static/images/signed_out.png)
 
- ![Fact Generator](assets/readme/new-fact-generator.png)
-
-
-
-
-- __Hoover__
-
-  - Each clickable element on the website changes color when hovered over with a mouse. This is to encourage users to click on buttons and links and increase engagement and user experience.
-  
-
-__Quizzes Page__
-
-  -  This page clearly lays out the main quiz topics. The user can easily navigate to the diffrent quizzes.
-  - Each specific quiz category has an eye catching image in relation to the different topics. Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
-  - At the bottom of the page there is an interactive google map. The map has various markers at locations all around the world.
-  - When the user clicks on the marker a info window appears and the users can view an interesting fact from this location.
-  - This is aimed at improving  the users engagement  on the site. As all quiz lovers enjoys interesting  facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
-  
-  - Quizzes Page
- ![Quizz Featuer](assets/readme/quizzes-featuers.png)
-
- - Quizzes Page Google Map Feature
- ![Map Quizzes Featuer](assets/readme/map-quizzes.png)
-
-  [View Quizzes Page Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
-
-
-__Quiz Page__
-
-  -  The quiz page is the same format on all quizzes, 5 questions with a multiple choice of 3 answers per question.The user answer is easily and quickly recorder in a radio input.
-
-  - Quiz Page
- ![Quizz Featuer](assets/readme/quizz-page.png)
-
-  - The user has to answer all questions for the quiz to be successful. If they don't they will be given an alert saying you have missed a question.
-
-  - Alert warning
- ![Quizz Featuer](assets/readme/alert-quizz.png)
-
-  - At the end of the quiz the user presses get results  button, And a message tells them how many questions they have got correct.
-  - The results is also accompanied with a GIF image, there a 3 different  images that relate to different  score ranges.
-  - GIF for All Correct
-  ![Quiz Results](assets/readme/quizz-full-marks.png)
-  - The answers to the questions are also revealed  once the user has submitted at the end of the quiz.  
-  
-  [View Quiz Page Featuers](https://wlillisdev.github.io/quiz-master/quizz-triva.html)
-
-
-
-__Contact Us Page__
-
- [View Contact Us Featuers](https://wlillisdev.github.io/quiz-master/contact-us.html)
-
-  - It has a simple but elegant contact us form layout. That captures enough information so Quiz Master can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
-  - It also has a video background of question marks. It continues the animation theme and quesion mark logo from the home page it is fun and interesting.
- 
- ![Contact Us Form](assets/readme/contact-us.png)
-
-__Thank You Page__
-  - When the user successfully submits the contact us form, they will be brought to a thank you page. Which will also encourage the user to check out our social channels.
-  ![Thank You Page](assets/readme/thank-you.png)
+__Admin Panel__
+  - A superuser was created at the start of this project to manage the administration section.
+  - Only approved admin users can access this section of the site and can do so by adding /admin to the URL home page and signing in.
+  - The admin has got full CRUD functionality. They can create, read update and delete blog posts. Create draft posts, Delete and approve comments. Delete and add useres. And has the functionality to filter and search though information.
+  - <img src="static/images/admin.png" alt="admin panel" width="600"/>
 
 # Design
  - Theme
