@@ -138,7 +138,7 @@ a {
 a:link {
     text-decoration: none;
     
-  }
+}
 
 .link:hover,
 .link:active {
@@ -160,45 +160,32 @@ a:link {
     align-items: center;
     justify-content: center;
     position: relative;
-    
-
-    /* filter: grayscale(65%); */
 }
-
-
-
 
 .hero-box{
     background-color: rgba(0, 0, 0, 0.6);
     padding-bottom: 10px;
-    border: 2px solid white;
     border-radius: 25px;
     padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
+    padding-left: 2px;
+    margin-left: 2px;
     margin-right: 10px;
 }
 
 #hero-heading {
     margin-top: 15px;
     color: white;
-    /* -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black; */
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .hero-text {
-   
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 10px;
     color: white;
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; */
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -226,11 +213,9 @@ a:link {
     color: black;
 }
 
-
 #about-footer {
    padding-left: 15px;
    text-decoration: none;
-   
 }
 
 .heading-about {
