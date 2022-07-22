@@ -8,7 +8,7 @@ This website is designed for Hiking Hub. Their aim is to become the go to blog f
 
 # Aim of Website
 
-The goal of this website is to create an active hiking community blog. To provide a platform so users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
+The goal of this website is to create a hiking community blog. To provide a platform so users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
 
 # Target Audience
 
@@ -192,13 +192,13 @@ __Admin Panel__
 
 __Error Pages__
  - Custom error pages were also created for this project.
- - - 403 Page Forbiden - Access Forbidden the user does not have permission to access this resource
- - - 404 Page Not Found - the user requested a page that is not available
- - - 500 Server Error - internal server error 
+   - 403 Page Forbiden - Access Forbidden the user does not have permission to access this resource
+   - 404 Page Not Found - the user requested a page that is not available
+   - 500 Server Error - internal server error 
 
 # Design
  - Theme
-   - The Theme of the website was to build a bright and engaging Quiz website with a blend of both quizzes and fun. 
+   - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and users could display there posts simply and elegantly. 
    - Fonts were imported from google fonts, Boogaloo was used for the logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text.These were picked as they were crisp and complimented each other and the theme of the site.
 
  - Color Palette
@@ -207,14 +207,14 @@ __Error Pages__
  ![Color Palette](assets/readme/color-pallet.png)
 
 - Imagery
-   - The images that were selected for the website were bold and bright images related to the Quiz Genre.
+   - The images that were selected for the website were bold and bright images related to the outdoor and hikeing.
 
 - Wireframes
    - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
 
-  - ![Homepage Wireframe Concept](assets/readme/home-wireframe.png)
-  - [Quizzes Page Wireframe Concept](assets/readme/quizzes-wireframe-new.png)
-  - [Quizz Page Wireframe Concept](assets/readme/quizz-wireframe.png)
+  - ![Homepage Wireframe Concept](static/readme/hiking_hub_home.png)
+  - [Display Posts Wireframe Concept](static/readme/posts_page_layout.png)
+  - [Post Detail Wireframe Concept](static/readme/post_detail_wireframe.png)
    
 
 # Future Development
