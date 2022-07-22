@@ -15,6 +15,11 @@ a:hover {
     background-color:rgb(160,160,160);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+  
 #icon-home-green {
     color: green;
     text-shadow: 1px 1px 1px #ccc;
@@ -48,7 +53,7 @@ a:hover {
     font-size: 1.6rem;
     font-weight: 600;
     color: whitesmoke;
-    margin-left: 5px;
+    margin-left: 15px;
     letter-spacing: 1px;
 }
 
@@ -149,7 +154,7 @@ a:link {
 
 .hero-container {
     height: 100vh;
-    background: no-repeat bottom right fixed linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -159,32 +164,41 @@ a:link {
 
     /* filter: grayscale(65%); */
 }
-    
 
 
-/* .hero-box{
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-} */
+
+
+.hero-box{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 #hero-heading {
     margin-top: 15px;
     color: white;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black; */
     text-transform: uppercase;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
 .hero-text {
+   
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 10px;
     color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -211,6 +225,7 @@ a:link {
 #socail-footer {
     color: black;
 }
+
 
 #about-footer {
    padding-left: 15px;
