@@ -201,16 +201,21 @@ __Error Pages__
    - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and users could display there posts simply and elegantly. 
    - Fonts were imported from google fonts, Boogaloo was used for the logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text.These were picked as they were crisp and complimented each other and the theme of the site.
 
- - Color Palette
-   - The color palette is made up of four main colors which creates a good contrast and helps support the overall theme.
+ - Data Model
+   - Lucid Charts was used to design and visualise the  models used in this project.
+   ![Data Models](static/images/models.png)
 
- ![Color Palette](assets/readme/color-pallet.png)
+
+ - Color Palette
+   - The color palette is made up of Three main colors. Although simple it  which creates a good contrast and helps support the overall theme.The Blue was used mainly for buttons and the grey for a hover effect.
+
+ ![Color Palette](/workspace/hiking-hub/static/images/color_pallet.png)
 
 - Imagery
    - The images that were selected for the website were bold and bright images related to the outdoor and hikeing.
 
 - Wireframes
-   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
+   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.(Home Page Below)
 
   - ![Homepage Wireframe Concept](static/readme/hiking_hub_home.png)
   - [Display Posts Wireframe Concept](static/readme/posts_page_layout.png)
