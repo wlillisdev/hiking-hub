@@ -142,6 +142,8 @@ __Comments__
   - There is also a counter to show how many times a post was liked and how many comments were made.
   - A featuer of the site is that only registerd users can make a comment or like a post, all comments are moderated and must be approved before appearing on site by the admin.
   - <img src="static/images/leave_comment.png" alt="post comment" width="550"/>
+  - The user will also get an alert message that there comment was submitted
+  ![Comment Submitted](static/readme/alert_comment.png)
 
 
 __Add Post__
@@ -151,12 +153,16 @@ __Add Post__
 
   - Once the user has submitted their post, they are taken back to the home page, All post must be approved before final publishing.
   - [View add Post Form](static/images/add_post.png)
+  - The user will also get an alert message that there post was submitted
+  ![Alert Add Post](static/readme/post_submitted.png)
   
 __Update Post__
   - If the user is logged in, the update post button will be active on th eblog posts they have created.
   - The user will be brought to a form that is prepopulated with the origional blog post details they have written.
   - And edits can be made and update clicked at the bottom of the form and this new content will be now displayed.
   - [View add Update Post  Form](static/images/update_post.png)
+   - The user will also get an alert message that there post was updated
+  ![Alert Update Post](static/readme/update_post_alert.png)
 
 __Delete Post__
   - If the user decides they want to delete a blog post they have created, they can click on the delete button.
@@ -183,6 +189,12 @@ __Admin Panel__
   - Only approved admin users can access this section of the site and can do so by adding /admin to the URL home page and signing in.
   - The admin has got full CRUD functionality. They can create, read update and delete blog posts. Create draft posts, Delete and approve comments. Delete and add useres. And has the functionality to filter and search though information.
   - <img src="static/images/admin.png" alt="admin panel" width="600"/>
+
+__Error Pages__
+ - Custom error pages were also created for this project.
+ - - 403 Page Forbiden - Access Forbidden the user does not have permission to access this resource
+ - - 404 Page Not Found - the user requested a page that is not available
+ - - 500 Server Error - internal server error 
 
 # Design
  - Theme
