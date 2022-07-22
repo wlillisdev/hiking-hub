@@ -199,7 +199,7 @@ __Error Pages__
 # Design
  - Theme
    - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and users could display there posts simply and elegantly. 
-   - Fonts were imported from google fonts, Boogaloo was used for the logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text.These were picked as they were crisp and complimented each other and the theme of the site.
+   - Fonts were imported from google fonts, Roboto & Lato were chosen.These were picked as they were bold and simple and easy to read and complimented each other and the theme of the site.
 
  - Data Model
    - Lucid Charts was used to design and visualise the  models used in this project.
@@ -207,9 +207,9 @@ __Error Pages__
 
 
  - Color Palette
-   - The color palette is made up of Three main colors. Although simple it  which creates a good contrast and helps support the overall theme.The Blue was used mainly for buttons and the grey for a hover effect.
+   - The color palette is made up of Three main colors. Although simple they creates a good contrast with each other and helps support the overall theme.The Blue was used mainly for buttons and the grey for a hover effect.
 
- ![Color Palette](/workspace/hiking-hub/static/images/color_pallet.png)
+ ![Color Palette](static/images/color_pallet.png)
 
 - Imagery
    - The images that were selected for the website were bold and bright images related to the outdoor and hikeing.

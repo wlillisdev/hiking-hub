@@ -132,6 +132,7 @@ a:hover {
 
 a:link {
     text-decoration: none;
+    
   }
 
 .link:hover,
@@ -148,7 +149,7 @@ a:link {
 
 .hero-container {
     height: 100vh;
-    background: no-repeat bottom right fixed;
+    background: no-repeat bottom right fixed linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     display: flex;
     align-items: center;
@@ -207,8 +208,14 @@ a:link {
     margin-bottom: 20px;
 }
 
+#socail-footer {
+    color: black;
+}
+
 #about-footer {
    padding-left: 15px;
+   text-decoration: none;
+   
 }
 
 .heading-about {
