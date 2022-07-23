@@ -12,7 +12,7 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: green;
+    color: blue;
 }
 
 a:link {
@@ -38,15 +38,18 @@ a:link {
     color: black;
 }
 
-#about-footer {
+.about-footer {
     padding-left: 15px;
-    text-decoration: none;
 }
 
 .socail-footer:hover,
 .socail-footer:active {
     color: red;
     border: none;
+}
+
+.about-footer a  {
+    color: white;
 }
 
 
