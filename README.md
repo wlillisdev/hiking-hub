@@ -245,23 +245,23 @@ __Error Pages__
  - HTML Validator
    - [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
    - A number of small errors were initially flagged up.
-     - [Erros From Validator Hompage](/workspace/hiking-hub/static/readme/error_html.png)
+     - [Erros From Validator Hompage](static/readme/error_html.png)
      
  ### All Pages are now error free see links below:
 
- ![Home Page](static/readme/home_html_pass.png)
-   - [Link to Homepage Test](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io%2F)
+ ![Home Page](static/readme/html_heruko_home.png)
+   - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhikinghub.herokuapp.com%2F)
+   - [Link to About Us Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhikinghub.herokuapp.com%2Fabout%2F)
   
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
   - The website passed with no errors
 
-  ![CSS Pass](static/readme/css_pass.png)
+  ![CSS Pass](static/readme/css_pass_heruko.png)
 
-  ### See links below for Results:
-
-   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  
+   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  
 ## Lighthouse
@@ -269,7 +269,7 @@ __Error Pages__
  - [See Light House Before Improvements](static/readme/lighthouse_before.png)
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in a incognito window and performance score increased.Results below from home page
 
- ![Hompage](static/readme/final_lighthouse.png)
+ ![Hompage](static/readme/heroku_lighthouse.png)
 
 
  ## JavaScript
