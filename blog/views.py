@@ -2,7 +2,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import View
 from django.contrib import messages
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, UserPassesTestMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
 from django.contrib.messages.views import SuccessMessageMixin
@@ -32,6 +32,7 @@ class PostList(ListView):
 class PostDetail(View):
     """ Returns blog post details """
     def get(self, request, slug, *args, **kwargs):
+        """ This method displays post details """
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -68,7 +69,7 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
-            messages.success(request, 'Comment Was Successfully Added & Waiting Approval')
+            messages.success(request, 'Successfully Added & Waiting Approval')
         else:
             comment_form = CommentForm()
 
@@ -86,7 +87,9 @@ class PostDetail(View):
 
 
 class PostLike(View):
+    """ Returns post like """
     def post(self, request, slug, *args, **kwargs):
+        """ This method displays like status """
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
@@ -97,6 +100,7 @@ class PostLike(View):
 
 
 class AddPostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    """ Returns add post """
     model = Post
     form_class = PostForm
     template_name = 'add_post.html'
@@ -108,7 +112,9 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         return super().form_valid(form)
 
 
-class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, UpdateView):
+class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin,
+                     SuccessMessageMixin, UpdateView):
+    """ Returns update post """
     model = Post
     form_class = PostForm
     template_name = 'update_post.html'
@@ -126,7 +132,9 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
         return False
 
 
-class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, DeleteView):
+class DeletePostView(LoginRequiredMixin, UserPassesTestMixin,
+                     SuccessMessageMixin, DeleteView):
+    """ Returns delete post """
     model = Post
     template_name = 'delete_post.html'
     success_message = 'Your Post Has Been Deleted'

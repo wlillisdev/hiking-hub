@@ -276,7 +276,7 @@ __Error Pages__
 
 
  ## Python
- - Python files such as views.py, models.py ect. were run through  [Pep 8](http://pep8online.com/)validator and no errors found.
+ - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
 
  
 ## Manual Testing
