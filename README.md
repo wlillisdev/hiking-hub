@@ -264,6 +264,17 @@ __Error Pages__
   
    - [Link to CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+  ## Python
+  - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
+  - [some erros found during testing](static/readme/erros_views_py.png)
+  - The Following python files passed testing with pep 8 
+  ![Views.py](static/readme/pass_views_py.png)
+  - [view passed urls.py](static/readme/urls.py_pass.png)
+  - [view passed models.py](static/readme/models.py_pass.png)
+  - [view passed forms.py](static/readme/forms.py_pass.png)
+  - [view passed apps.py](static/readme/app.py_pass.png)
+  - [view passed admin.py](static/readme/admin.py_pass.png)
+
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
@@ -271,12 +282,9 @@ __Error Pages__
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in a incognito window and performance score increased.Results below from home page
  - Desktop Reults
  ![Hompage](static/readme/heroku_lighthouse.png)
-- Mobile Reults
- ![Mobile](static/readme/mobile_lighthouse.png)
+ - [Mobile Light House Results](static/readme/mobile_lighthouse.png)
 
 
- ## Python
- - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
 
  
 ## Manual Testing
