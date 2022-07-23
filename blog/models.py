@@ -1,5 +1,5 @@
 """
-Imports
+Imports for Models
 """
 from django.db import models
 from django.contrib.auth.models import User
@@ -40,9 +40,15 @@ class Post(models.Model):
         ordering = ["-created_on"]
 
     def __str__(self):
+        """
+        method used to return title
+        """
         return self.title
 
     def get_absolute_url(self):
+        """
+        method used to return home
+        """
         return reverse('home')
 
     def save(self, *args, **kwargs):
@@ -50,7 +56,11 @@ class Post(models.Model):
         super(Post, self).save(*args, **kwargs)
 
     def number_of_likes(self):
+        """
+        method used to return the amount of likes
+        """
         return self.likes.count()
+
 
 class Comment(models.Model):
     """

@@ -1,3 +1,4 @@
+"""urls.py"""
 from . import views
 from .views import AddPostView, PostUpdateView, DeletePostView
 from django.urls import path
@@ -12,4 +13,3 @@ urlpatterns = [
     path('<slug:slug>/delete/', DeletePostView.as_view(), name='delete_post'),
     path('like/<slug:slug>', views.PostLike.as_view(), name='post_like'),
 ]
-
