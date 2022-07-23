@@ -52,7 +52,6 @@ a:link {
     color: white;
 }
 
-
 /* Logo Styling */
 
 .logo {
@@ -121,13 +120,44 @@ a:link {
     font-weight: bold;
 }
 
-/* Text Class Removed for Mobile */
+/* Why Join Us Section */
 
+#icon-home-green {
+    color: green;
+    font-size:45px;
+    margin-right: 15px;
+}
+
+#icon-home-grey {
+    color: grey;
+    font-size:45px;
+    margin-right: 15px;
+}
+
+#icon-home-black {
+    color: black;
+    font-size:45px;
+    margin-right: 15px;
+}
+
+#icon-home-red {
+    color: red;
+    font-size:45px;
+    margin-right: 15px;
+}
 
 .icon-text {
     font-weight: bold;
     text-transform: capitalize;
 }
+
+.heading-about {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+/* Post Styling */
 
 .post-test-color{
     color: green;
@@ -166,6 +196,8 @@ a:link {
     text-transform: uppercase;
 }
 
+/* Post Detail Block Color Banner */
+
 .banner-post {
     background-color: rgb(0,128,0);
     color: white;
@@ -173,22 +205,18 @@ a:link {
     background-image: linear-gradient(rgb(0,128,0), rgb(48, 244, 48));
 }
 
+/* Post Detail image Banner */
+
 .banner-image {
     position: relative;
     overflow: hidden;
 }
 
+/* Post Detail Text Styling */
+
 .post-link {
     text-decoration: none;
     color: #445261;
-}
-
-.edit-post-btn:hover{
-    background-color: grey;
-}
-
-.delete-post-btn:hover{
-    background-color: grey;
 }
 
 .post-title {
@@ -201,7 +229,7 @@ a:link {
     text-transform:capitalize;
 }
 
-
+/* Like Button*/
 
 .btn-like {
     color: #E84610;
@@ -209,13 +237,14 @@ a:link {
     background: transparent;
 }
 
-
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;
     background: transparent;
     border: none;
 }
+
+/* Delete Button*/
 
 .delete-post-title{
     color: red;
@@ -229,13 +258,12 @@ a:link {
     margin-bottom: 20px;
 }
 
+.edit-post-btn:hover{
+    background-color: grey;
+}
 
-
-
-.heading-about {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: -10px;
+.delete-post-btn:hover{
+    background-color: grey;
 }
 
 /* Media Queries */
