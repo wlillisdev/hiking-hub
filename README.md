@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://hikinghub.herokuapp.com/)..
 
-![Home page Hiking Hub](static/images/edit_home_screen.png)
+![Home page Hiking Hub](static/readme/new_cover_image.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
 
@@ -244,24 +244,14 @@ __Error Pages__
 
  - HTML Validator
    - [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
-   - A number of small errors were initially flagged up. Some duplicate tags were removed and I also had to rename a number of images. I also misplaced a link tag in the homepage, as I copied this page structure for the rest of the site i had to fix it on all of these pages also
-     - [Erros From Validator Hompage](assets/readme/html-home-error.png)
-     - [Erros From Validator Quizzes](assets/readme/error-validator-quizzes.png)
-     - [Erros From Validator Triva Quiz](assets/readme/validaor-error-triva-quiz.png)
-
-   
-
+   - A number of small errors were initially flagged up.
+     - [Erros From Validator Hompage](/workspace/hiking-hub/static/readme/error_html.png)
+     
  ### All Pages are now error free see links below:
 
- ![Home Page](assets/readme/homepage-pass-validator.png)
-   - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Findex.html)
-   - [Quizzes Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fquizzes.html)
-   - [Triva Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fquizz-triva.html) Error because image is hidden until event happens
-   - [Sport Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fsport-quizz.html) Error because image is hidden until event happens
-   - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Ffilm-quizz.html) Error because image is hidden until event happens
-   - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fmusic-quizz.html) Error because image is hidden until event happens
-   - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fcontact-us.html)
-   - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fthank-you.html)
+ ![Home Page](static/readme/home_html_pass.png)
+   - [Link to Homepage Test](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io%2F)
+  
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
@@ -276,12 +266,11 @@ __Error Pages__
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
+ - [See Light House Before Improvements](static/readme/lighthouse_before.png)
+ - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in a incognito window and performance score increased.Results below from home page
 
- - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
+ ![Hompage](static/readme/final_lighthouse.png)
 
- ![Hompage](assets/readme/lighthouse-homepage-crop.png)
- - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) results are slightly down mainly due to the integration  of google maps api.
- - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
 
  ## JavaScript
  - The [JShint](https://jshint.com/) was used to validate the **JavaScrip** code

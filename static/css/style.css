@@ -196,7 +196,7 @@ a:link {
     margin-bottom: 20px;
 }
 
-#socail-footer {
+.socail-footer {
     color: black;
 }
 
@@ -219,7 +219,7 @@ a:link {
         margin-bottom: 20px;}
 }
 
-/* Remove Text deom mobile screen @500px */
+/* Remove Text from home screen on @500px */
 
 @media screen and (max-width: 500px) {
     .hero-text-heading {
