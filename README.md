@@ -109,7 +109,7 @@ __Footer__
   - It contains 4 social media platforms that will also open in a new window to allow easy navigation for the user.
   - The main aim of the footer is to increase engagement with visitors.With the goal of getting the user to subscribe to the socail channels in order to get updates on new blog post and encouraging useres to be part of the Hiking Hub Community.
 
- ![Footer Bar](static/readme/footer.png)
+ ![Footer Bar](static/readme/new_footer.png)
 
 
 __About Us__
@@ -128,7 +128,7 @@ __Post List__
 
 __Pagination__
   - When 6 post occupy a page it autamticaly creates a new page, this can be accessed at the bottom of the page. You can press next or previous to navigate between pages.
-  - <img src="static/images/pagination.png" alt="pagination" width="400"/>
+  - <img src="static/readme/new_paginate.png" alt="pagination" width="400"/>
  
 __Post Detail__
   -  [View typical post detail page](https://8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io/cannon-sheehan-loop/)
@@ -195,6 +195,7 @@ __Error Pages__
    - 403 Page Forbiden - Access Forbidden the user does not have permission to access this resource
    - 404 Page Not Found - the user requested a page that is not available
    - 500 Server Error - internal server error 
+   - <img src="static/readme/404_error.png" alt="404 error" width="600"/>
 
 # Design
  - Theme
@@ -261,7 +262,7 @@ __Error Pages__
   ![CSS Pass](static/readme/css_pass_heruko.png)
 
   
-   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - [Link to CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  
 ## Lighthouse
@@ -306,13 +307,28 @@ __Error Pages__
 
 # Deployment
 
-The site was created using Visual Studio Code and GitHub, and deployed to GitHub pages for testing using the below process:
+The site was deployed via Heroku.
+1.  Log in to Heroku or create an account if required.
+2.  Then, click the button labelled New from the dashboard in the top right corner and from the drop-down menu select Create New App.  You must enter a unique app name
+3.  Next, select your region.
+4.  Click on the Create App button.
+5.  In your app go to Resources tab and add a Heroku Postgres database.
+6.  The next page you will see is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars and enter:
+    *   CLOUDINARY_URL = your cloudinary key 
+    *   DATABASE_URL = the url of your heroku postgres database
+    *   SECRET_KEY = a secret key for your app.
+    *   PORT = 8000
+    *   DISABLE_COLLECTSTATIC = 1 during development and remove when deploying to production
 
+7.  Scroll to the top of the page and now choose the Deploy tab.
+8.  Select Github as the deployment method.
+9.  Confirm you want to connect to GitHub.
+10. Search for the repository name and click the connect button.
+11. Scroll to the bottom of the deploy page and select preferred deployment type:
+12. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github.
+13. Select the correct branch for deployment from the drop-down menu and click Deploy Branch for manual deployment.
 
- - Clicked on my respository for [wlillisdev/quizz-master](https://github.com/wlillisdev/quiz-master).
- - Clicked settings tab and navigated down to "pages"
- - Selected "Main" in branch drop down box.
- - Clicked "save" which produced the live link which can be viewed [here](https://wlillisdev.github.io/quiz-master/).. 
+NB: Ensure in Django settings, DEBUG is False, create a Procfile and save database and cloudinary urls and secret key to env.py.
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
