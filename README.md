@@ -269,18 +269,15 @@ __Error Pages__
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
  - [See Light House Before Improvements](static/readme/lighthouse_before.png)
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in a incognito window and performance score increased.Results below from home page
-
+ - Desktop Reults
  ![Hompage](static/readme/heroku_lighthouse.png)
+- Mobile Reults
+ ![Mobile](static/readme/mobile_lighthouse.png)
 
 
- ## JavaScript
- - The [JShint](https://jshint.com/) was used to validate the **JavaScrip** code
- - The results initally highlighted a few warnings.
-     - [Erros From JShint](assets/readme/jshint-error.png)
-     
- - Each item was addressed, The validation loop for the quizz was edited to remove eval as Jshint highlighted it could be harmful for security issues. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
+ ## Python
+ - Python files such as views.py, models.py ect. were run through  [Pep 8](http://pep8online.com/)validator and no errors found.
 
- ![JShint Scan Pass](assets/readme/jshint-scan-pass.png)
  
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
