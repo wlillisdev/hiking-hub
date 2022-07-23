@@ -257,11 +257,11 @@ __Error Pages__
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
   - The website passed with no errors
 
-  ![CSS Pass](assets/readme/css-pass-validator.png)
+  ![CSS Pass](static/readme/css_pass.png)
 
   ### See links below for Results:
 
-   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  
 ## Lighthouse
