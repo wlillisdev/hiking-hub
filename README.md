@@ -92,10 +92,10 @@ __Landing Page__
   - The text on the screen clearly tells the user whats the site is about and what the user needs to do next. And they are encourage to sign up with a bold sign up button.
   - The hero image also has a Parallax Scrolling Effect with the text.
   - The text on the home screen changes depending on if the usere is logged in or not.
-  - Landing page below shows the text displayed when new user viditd the siteand is not registered.
-  - <img src="static/readme/landing_logged_out.png" alt="hero not logged out" width="675"/>
+  - Landing page below shows the text displayed when new user visits the site and is not registered.
+  - <img src="static/readme/home_not_logged_in.png" alt="hero not logged out" width="675"/>
   - Landing page below shows the text displayed when user is logged in.
-  - <img src="static/readme/landing_logged_in.png" alt="hero not logged in" width="675"/>
+  - <img src="static/readme/home_logged_in.png" alt="hero not logged in" width="675"/>
 
 __Why Join Us__
 
@@ -295,7 +295,7 @@ __Error Pages__
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify  and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
 
-  | Issue | User Story | Aaccecptance Criteria | Result |  
+  | Issue | User Story | Acceptance Criteria | Result |  
 | --- | --- | --- | --- |
 | 1 | As a user, I can register an account so that I can gain access to the full range of features of the blog. | User can register a new account,User can have access to all features of the blog | Pass |
 | 2 | As a registered user I can easily login and logout of the blog so that I can access the content i have created. | User can easily login and logout of the site | Pass |
@@ -312,7 +312,7 @@ __Error Pages__
 | 13 | As a user I can view the number of likes on a blog post so that I can see which is the most popular hiking trail |  user can view the total number of likes given to an individual blog post | Pass |
 | 14 | As an admin I can **approve or disapprove comments made ** so that I can filter out inappropriate comments |  admin can moderate and quickly filter comments and easily approve and delete comments in the admin panel of the blog | Pass |
 | 15 | As a user I can understand the website's purpose quickly so that I know if its what I'm looking for |   User can quickly understand website's purpose and what to do next from the homepage of the website | Pass |
-| 16 | As a role I can register an account with a social network so that **I can quickly register my account ** |   User can register an account using their Google/Facebook account info | not included |
+| 16 | As a user I can register an account with a social network so that **I can quickly register my account ** |   User can register an account using their Google/Facebook account info | not included |
 | 17 | As a user I can get links to important information related to hiking so that so i can get important information related to the hill walking & safety |   user can access important information in relation to hillwalking | not included |
 | 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
 
