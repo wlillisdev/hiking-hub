@@ -318,22 +318,28 @@ __Error Pages__
 | 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
 
   
-  
-  
+## Manual Feature Testing
+  - A structuered approach was taken to go through all of the sites  featuers to see it they worked properly. 
   
   | Feature Tested | Testing Method | Final Result |  
 | --- | --- | --- |
 | User Register account |- Each mandatory fields was left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
 | User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared |  Pass | 
 | User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user |  Pass |
-| User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user  |  Pass |  
+| User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user  |  Pass |
+| User logged in to account - name diplayed in navbar and homepage | - Logged into account with registered user account to see if name displayed in navbar and welcome message  |  Pass |   
+| Non registered user - can not add a blog post | - As a not registered user thier is not option in nav bar or other pages for user to add a blog post  |  Pass |
+| Non registered user - can not like or comment on posts| - As a not registered user thier is no option to add a blog comment to post. when the heart is clicked on it dose not activate and dose not add a like  |  Pass | 
+| User Logged In - User name appears in nav & welcome message| - Logged in a register account. User name appeared in nav bar and also in welcome message on home page|  Pass |
+| User Logged In - Add a blog Post in Nav Bar| - Logged in . Add a blog post option appears in the nav bar|  Pass |       
+| Create a blog post -  Fields left blank | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed|  Pass | 
+| Create a blog post -  No Featured Image | - Blog post was added with no featured image from user. A  placeholder image was added by default|  Pass |
+| Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass |         
 
 
 
 
-| Non-Signed in user - like  | - Like button is not activated | <img src="media/testing/inactivelike.png" alt="Inactive Like Button"> | Pass |  
-| Non-Signed in user - comment  | - Page does not show post comment option |<img src="media/features/comment2.png" alt=" unable to comment image"> | Pass |
-| Non-Signed in user - create  | - nav bar does not show create option |<img src="media/testing/loggedoutnav.png" alt="No Create Post option in nav bar"> | Pass | 
+
 | Signed in user - like  | - Like button is activated | <img src="media/testing/likeactive.png" alt="Like button activated"> | Pass | 
 | Signed in user - comment  | - Page shows post comment option| <img src="media/features/post2.png" alt="Option to add comment image">| Pass |
 | Signed in user - create  | - nav bar shows create post option | <img src="media/testing/loggedinnav.png" alt="User can create a post"> | Pass | 
