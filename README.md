@@ -334,36 +334,23 @@ __Error Pages__
 | User Logged In - Add a blog Post in Nav Bar| - Logged in . Add a blog post option appears in the nav bar|  Pass |       
 | Create a blog post -  Fields left blank | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed|  Pass | 
 | Create a blog post -  No Featured Image | - Blog post was added with no featured image from user. A  placeholder image was added by default|  Pass |
-| Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass |         
+| Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
+| Update a blog post -  you are not the authour | - If you are not the autour of a bolg post update button will be hidden from the user a 403 error will occur if /update typed into url |  Pass |
+| Update a blog post -  you are the authour | - If you are  the autour of a blog post update button will be visible to the authour |  Pass 
+| Update a blog post -  prepopluated fields from blog post | - clicked on update button, update blog post form all the fields were populated from previous blog post |  Pass
+| Update a blog post -  update fields on form | - All fields on the prepopulated form were updated and submitted and the blog post content was successfully updated |  Pass
+| delete a blog post -  you are not the authour | - If you are not the autour of a bolg post the delete button will be hidden to the user and 403 error will occur if /delete is typed into url |  Pass          
+| delete a blog post -  you are the authour | - If you are  the authour of a bolg post  delete buttons will be visible to the authour, on delete the post is successfully removed from website |  Pass
+| Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
+| Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
+| Alert message - Add Comment | Alert your comment was successfully added appears on top of screen | Pass |
+| Alert message - Add blog post | Alert your blog post was successfully added appears on top of screen | Pass | 
+| Alert message - Update blog post | Alert your blog post was successfully updated appears on top of screen | Pass |
+| Admin - restricted access | - Only the admin/superuser account can log into the admin view panel. | Pass |
+| Admin Panel - CRUD in the admin panel| - Admin has capability to create, update and delete blog posts,approve and delete comments | Pass |
 
 
-
-
-
-| Signed in user - like  | - Like button is activated | <img src="media/testing/likeactive.png" alt="Like button activated"> | Pass | 
-| Signed in user - comment  | - Page shows post comment option| <img src="media/features/post2.png" alt="Option to add comment image">| Pass |
-| Signed in user - create  | - nav bar shows create post option | <img src="media/testing/loggedinnav.png" alt="User can create a post"> | Pass | 
-| Create a post - no image |- This was tested with no image being uploaded by the user creating the post to ensure that the placeholder image successfully posted. | <img src="media/testing/placeholderimage.png" alt="placeholder image successfully posted"> | Pass |
-| Create a post - Blank Fields |- This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed | <img src="media/testing/blankfieldtest.png" alt="Alert if any blank field detected"> | Pass |
-| Update a post - not author | - If user is not the author of the post edit and delete options should not be available to them |<img src="media/features/authoronly.png" alt="Author only comment view"> | Pass |
-| Delete a post - not author |- If user is not the author of the post edit and delete options should not be available to them |<img src="media/features/authoronly.png" alt="Author only comment view"> | Pass |
-| Update a post - author - Blank Field | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed | <img src="media/testing/blankfieldtest.png" alt="Alert if any blank field detected"> | Pass |
-| Update a post - author - Pre-populated Data | - When update is selected all data from the original post should be pre-populated |<img src="media/features/update1.png" alt="Update a post"> <img src="media/features/update2.png" alt="Update a post">| Pass |
-| Update a post - author - Change Image | - When updating a post the user has the option to change the image that they have selected. The page displays the current image name and if any new image has been uploaded | <img src="media/features/update2.png" alt="Update a post">| Pass
-| Update and Delete options - author | - If user is author of post edit and delete options should be available to them | <img src="media/features/editdelete.png" alt="authors options for their posts"> | Pass | 
-| Delete a post - author | - Testing if alert appears to confirm before deletion. | <img src="media/features/deletepostalert.png" alt="Alert to confirm deletion"> | Pass |
-| Site Alert - sign in | Alert to confirm successful signing in. | <img src="media/testing/signinalert.png" alt="sign in alert image"> | Pass |
-| Site Alert - sign out |- Alert requests user to confirm before logging out of site. | <img src="media/features/signout.png" alt="log out image"> | Pass |
-| Site Alert - sign out |- Alert to confirm successful signing out. | <img src="media/testing/signoutalert.png" alt="sign out alert image"> | Pass |
-| Site Alert - create post |- Alert to confirm successful post creation. | <img src="media/testing/recipealert.png" alt="recipe posted alert image"> | Pass |
-| Site Alert - publish comment | - Page shows comment posted complete. | <img src="media/testing/commentposted.png" alt="Comment successfully posted to site"> | Pass |
-| About Page - Links | - Testing if signup and home page link are activated. Both of these links are active and take the user to the correct location on the site when selected. | <img src="media/features/aboutus.png" alt="about page image">| Pass | 
-| Admin CRUD functionality | - The admin account has access to create, update and delete posts | <img src="media/testing/adminedit.png" alt="Admin edit complete"> <img src="media/features/adminview.png" alt="Admin view">| Pass |
-| Admin - restricted access | - Only the admin account can log into the admin view panel. | <img src="media/testing/adminauth.png" alt="Admin logging auth"> | Pass |
-
-
-
-# Bugs
+# Fixed Bugs
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
