@@ -295,6 +295,31 @@ __Error Pages__
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify  and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
 
+  | Issue | User Story | Aaccecptance Criteria | Result |  
+| --- | --- | --- | --- |
+| 1 | As a user, I can register an account so that I can gain access to the full range of features of the blog. | User can register a new account,User can have access to all features of the blog | Pass |
+| 2 | As a registered user I can easily login and logout of the blog so that I can access the content i have created. | User can easily login and logout of the site | Pass |
+| 3 | As an Admin I can **view, create, edit, update and delete all blog posts ** so that the Admin can easily moderate and control the website's content. | Admin can delete posts,Admin can edit posts,Admin can filter posts,Admin can search posts | Pass |
+| 4 | As an admin I can create draft posts so that I can finish writing and editing blog posts later | Admin can create a draft blog post in admin panel | Pass |   
+| 5 | As a user I can view a list of trails blog posts so that I can see easily move through the list of trails and pick one I want to read | Trails appear in the paginated list | Pass |   
+| 6 | As a user I can see the location of the trail on google maps so that ** i can find out the exact location of the trail to visit there** | User can add click on Google Maps and get directions to the location of the trail. | not included | 
+| 7 | As a user I can create a blog post about a trail I have done so that other users can view them | User can create a detailed blog post about a trail they have walked so other users can review and comment on it.User has to be registered in order to create a blog post | Pass | 
+| 8 | As a user I can delete blog posts i have created so that I can remove any unwanted trail posts I have made | User can delete blog posts they have created from the website.User can only delete their own content linked to their registered account. | Pass |
+| 9 | As a user I can edit my trail blog post so that I can update or make changes to my post | User can make edits and updates to a previously published blog post,User can only their own content | Pass |  
+| 10 | As a user I can I can click on a blog post so that I can read the full detailed blog post | User can click on the paginated blog post list and read the full detailed blog post | Pass |
+| 11 | As a user I can comment on trail posts so that I can give my feedback & opinion to other users |  User can make a comment on the blog post.User only can only make a comment if they are a registered user. | Pass |
+| 12 | As a user or admin I can read comments on a post so that I can read other user's feedback and opinions | Admin can read comments on a blog post.User can read comments on a blog post | Pass |
+| 13 | As a user I can view the number of likes on a blog post so that I can see which is the most popular hiking trail |  user can view the total number of likes given to an individual blog post | Pass |
+| 14 | As an admin I can **approve or disapprove comments made ** so that I can filter out inappropriate comments |  admin can moderate and quickly filter comments and easily approve and delete comments in the admin panel of the blog | Pass |
+| 15 | As a user I can understand the website's purpose quickly so that I know if its what I'm looking for |   User can quickly understand website's purpose and what to do next from the homepage of the website | Pass |
+| 16 | As a role I can register an account with a social network so that **I can quickly register my account ** |   User can register an account using their Google/Facebook account info | not included |
+| 17 | As a user I can get links to important information related to hiking so that so i can get important information related to the hill walking & safety |   user can access important information in relation to hillwalking | not included |
+| 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
+
+  
+  
+  
+  
   | Feature Tested | Testing Method | Test Check | Final Result |  
 | --- | --- | --- | --- | 
 | Registration - Blank Field |- Each mandatory field was left blank intentionally to ensure error messages appeared | <img src="media/testing/registrationnameblank.png" alt="Blank name registration"> <img src="media/testing/blankpwsignup.png" alt="Blank password registration">| Pass | 
