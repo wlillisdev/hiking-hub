@@ -348,6 +348,7 @@ __Error Pages__
 | Alert message - Update blog post | Alert your blog post was successfully updated appears on top of screen | Pass |
 | Admin - restricted access | - Only the admin/superuser account can log into the admin view panel. | Pass |
 | Admin Panel - CRUD in the admin panel| - Admin has capability to create, update and delete blog posts,approve and delete comments | Pass |
+| Error Alerts - custom error pages| - The Urls were manipulated to test 403,404, & 500 errors, all erros delivered a unique error page | Pass |
 
 
 # Fixed Bugs
