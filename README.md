@@ -225,19 +225,17 @@ __Error Pages__
 
 # Future Development
 
-- More Quiz Topics
-  - As the site grows so will the resource of quiz topics and questions.
+- User Profiles
+  - The user will be able to have a user profile with some info about them and they also be able to view all thier posts they have created in thier profile.
 
-  - As the site grows we will intergrate an API into the random fact generator to generate an  infinite amount of new facts.        
+- Categories 
+  - As the site grows specific categories will be added, such as difficulty or based on location
 
-- Children Quizzes 
-  - Children Quizzes section will be added at a later date, to broaden the reach of the website.
+- Search functionality
+  - A search box could be intergarated tot eh nav bar to allow users to search for trails or hikes.
 
-- Subscription Section
-  - The site will initially  have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
-
-- Other Games
-  - As the site evolves  so will the amount of games on the site, initially  it is just quizzes, but it eventually have Crosswords, Word Search & Cryptograms.  
+- Online Shop
+  - As the site grows in order to monetize it an online shop can be added. To provide essential hiking supplies for its users.  
 
 # Testing
 
@@ -294,6 +292,9 @@ __Error Pages__
   - All of the page's features were tested on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, and Opera .
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify  and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
+
+## User Sory / Issue Testing
+  - All the issues previouly created in git hub at the start of the project were checked to see if the accecptane criteria were met in the final project delivery.
 
   | Issue | User Story | Acceptance Criteria | Result |  
 | --- | --- | --- | --- |
