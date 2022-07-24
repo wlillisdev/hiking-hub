@@ -4,15 +4,15 @@
 
 ![Home page Hiking Hub](static/readme/new_cover_image.png)
 
-This website is designed for Hiking Hub. Their aim is to become the go to blog for everting to do with hikeing in Ireland.
+This website is designed for Hiking Hub. Their aim is to become the go to blog for everything to do with hiking in Ireland.
 
 # Aim of Website
 
-The goal of this website is to create a hiking community blog. To provide a platform so users can share thier hiking adventuers. This blog will enabel users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
+The goal of this website is to create a hiking community blog. To provide a platform so users can share thier hiking adventuers. This blog will enable users to upload thier own unique hike reviews, And share with others thier expeierence they had on a particular hike or trail. So other users can discover hiden gems of hikes and trails all over Ireland.
 
 # Target Audience
 
- Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hikeing. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hikeing enthuists 25+ based in Ireland  
+ Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hiking. And not attempt difficult trails if you do not have a guide,relevant experience, proper equipment,colthing and supplies. Primarly the website will be aimed at hiking enthuists 25+ based in Ireland  
 
 # User Experience (UX)
 
@@ -43,23 +43,23 @@ The goal of this website is to create a hiking community blog. To provide a plat
 
 # Agile Approach to Project Devlopment
 
-An agile approach was taken in the devlopment of this project. The project will be  disected into smaller parts and an iterative approach to project management and software development will be used to achieve faster development of the project and optomise time usage.
+An agile approach was taken in the devlopment of this project. The project will be  disected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optomise time usage.
 
 - MoSoCoW Method:
-  - I will also aim to intergate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requiremnets need to be carried out first in order to achieve project goals and user stories with the first iteration been a fully functioning website. Custom labels will be created in github and allocated to each requirment so they can be easily filtered and identified.
+  - I will also aim to intergate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requiremnets need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in github and allocated to each requirment so they can be easily filtered and identified.
 
   <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
 
 - User Stories
   - The whole project was broken down in 18 indivudal user stories,each user story was a self contined devlopemnt mini project that helped reach the overall goal of the website.They were enter into github as github issues.
   - [View List of 18 User Stories](https://github.com/wlillisdev/hiking-hub/issues)
-  - Specific accecptance critea was allocated for each user story and a list of  tasks were also established. Each task would need to be completed so accecptance critea is met.See example below.
+  - Specific accecptance critea was allocated for each user story and a list of  tasks were also established. Each task would need to be completed to ensure accecptance critea is met.See example below.
   ![Issue Example](static/readme/user_story.png)
   - The Moscow method was then applied to eash user story. And tags were applied to priortise the order of work.
   - [Example of MOSCOW tags](static/readme/must_have.png)
   - The users stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the inital launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
   - [View Project Iterations](https://github.com/wlillisdev/hiking-hub/milestones)
-  - A Kanban board was set up in github in order to manage the various project user stories. It was devided into 3 main areas to track rhw progress. To Do, In Progress,Done,
+  - A Kanban board was set up in github in order to manage the various project user stories. It was devided into 3 main areas to track the progress of user stories.The 3 Columns were To Do, In Progress,Done.
   ![Kanban Board](static/readme/kanban_board.png)
   -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
   
@@ -293,32 +293,7 @@ __Error Pages__
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify  and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
 
-## User Sory / Issue Testing
-  - All the issues previouly created in git hub at the start of the project were checked to see if the accecptane criteria were met in the final project delivery.
-
-  | Issue | User Story | Acceptance Criteria | Result |  
-| --- | --- | --- | --- |
-| 1 | As a user, I can register an account so that I can gain access to the full range of features of the blog. | User can register a new account,User can have access to all features of the blog | Pass |
-| 2 | As a registered user I can easily login and logout of the blog so that I can access the content i have created. | User can easily login and logout of the site | Pass |
-| 3 | As an Admin I can **view, create, edit, update and delete all blog posts ** so that the Admin can easily moderate and control the website's content. | Admin can delete posts,Admin can edit posts,Admin can filter posts,Admin can search posts | Pass |
-| 4 | As an admin I can create draft posts so that I can finish writing and editing blog posts later | Admin can create a draft blog post in admin panel | Pass |   
-| 5 | As a user I can view a list of trails blog posts so that I can see easily move through the list of trails and pick one I want to read | Trails appear in the paginated list | Pass |   
-| 6 | As a user I can see the location of the trail on google maps so that ** i can find out the exact location of the trail to visit there** | User can add click on Google Maps and get directions to the location of the trail. | not included | 
-| 7 | As a user I can create a blog post about a trail I have done so that other users can view them | User can create a detailed blog post about a trail they have walked so other users can review and comment on it.User has to be registered in order to create a blog post | Pass | 
-| 8 | As a user I can delete blog posts i have created so that I can remove any unwanted trail posts I have made | User can delete blog posts they have created from the website.User can only delete their own content linked to their registered account. | Pass |
-| 9 | As a user I can edit my trail blog post so that I can update or make changes to my post | User can make edits and updates to a previously published blog post,User can only their own content | Pass |  
-| 10 | As a user I can I can click on a blog post so that I can read the full detailed blog post | User can click on the paginated blog post list and read the full detailed blog post | Pass |
-| 11 | As a user I can comment on trail posts so that I can give my feedback & opinion to other users |  User can make a comment on the blog post.User only can only make a comment if they are a registered user. | Pass |
-| 12 | As a user or admin I can read comments on a post so that I can read other user's feedback and opinions | Admin can read comments on a blog post.User can read comments on a blog post | Pass |
-| 13 | As a user I can view the number of likes on a blog post so that I can see which is the most popular hiking trail |  user can view the total number of likes given to an individual blog post | Pass |
-| 14 | As an admin I can **approve or disapprove comments made ** so that I can filter out inappropriate comments |  admin can moderate and quickly filter comments and easily approve and delete comments in the admin panel of the blog | Pass |
-| 15 | As a user I can understand the website's purpose quickly so that I know if its what I'm looking for |   User can quickly understand website's purpose and what to do next from the homepage of the website | Pass |
-| 16 | As a user I can register an account with a social network so that **I can quickly register my account ** |   User can register an account using their Google/Facebook account info | not included |
-| 17 | As a user I can get links to important information related to hiking so that so i can get important information related to the hill walking & safety |   user can access important information in relation to hillwalking | not included |
-| 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
-
-  
-## Manual Feature Testing
+  ## Manual Feature Testing
   - A structuered approach was taken to go through all of the sites  featuers to see it they worked properly. 
   
   | Feature Tested | Testing Method | Final Result |  
@@ -349,6 +324,33 @@ __Error Pages__
 | Admin - restricted access | - Only the admin/superuser account can log into the admin view panel. | Pass |
 | Admin Panel - CRUD in the admin panel| - Admin has capability to create, update and delete blog posts,approve and delete comments | Pass |
 | Error Alerts - custom error pages| - The Urls were manipulated to test 403,404, & 500 errors, all erros delivered a unique error page | Pass |
+
+## User Sory / Issue Testing
+  - All the issues previouly created in git hub at the start of the project were checked to see if the accecptane criteria were met in the final project delivery.
+
+  | Issue | User Story | Acceptance Criteria | Result |  
+| --- | --- | --- | --- |
+| 1 | As a user, I can register an account so that I can gain access to the full range of features of the blog. | User can register a new account,User can have access to all features of the blog | Pass |
+| 2 | As a registered user I can easily login and logout of the blog so that I can access the content i have created. | User can easily login and logout of the site | Pass |
+| 3 | As an Admin I can **view, create, edit, update and delete all blog posts ** so that the Admin can easily moderate and control the website's content. | Admin can delete posts,Admin can edit posts,Admin can filter posts,Admin can search posts | Pass |
+| 4 | As an admin I can create draft posts so that I can finish writing and editing blog posts later | Admin can create a draft blog post in admin panel | Pass |   
+| 5 | As a user I can view a list of trails blog posts so that I can see easily move through the list of trails and pick one I want to read | Trails appear in the paginated list | Pass |   
+| 6 | As a user I can see the location of the trail on google maps so that ** i can find out the exact location of the trail to visit there** | User can add click on Google Maps and get directions to the location of the trail. | not included | 
+| 7 | As a user I can create a blog post about a trail I have done so that other users can view them | User can create a detailed blog post about a trail they have walked so other users can review and comment on it.User has to be registered in order to create a blog post | Pass | 
+| 8 | As a user I can delete blog posts i have created so that I can remove any unwanted trail posts I have made | User can delete blog posts they have created from the website.User can only delete their own content linked to their registered account. | Pass |
+| 9 | As a user I can edit my trail blog post so that I can update or make changes to my post | User can make edits and updates to a previously published blog post,User can only their own content | Pass |  
+| 10 | As a user I can I can click on a blog post so that I can read the full detailed blog post | User can click on the paginated blog post list and read the full detailed blog post | Pass |
+| 11 | As a user I can comment on trail posts so that I can give my feedback & opinion to other users |  User can make a comment on the blog post.User only can only make a comment if they are a registered user. | Pass |
+| 12 | As a user or admin I can read comments on a post so that I can read other user's feedback and opinions | Admin can read comments on a blog post.User can read comments on a blog post | Pass |
+| 13 | As a user I can view the number of likes on a blog post so that I can see which is the most popular hiking trail |  user can view the total number of likes given to an individual blog post | Pass |
+| 14 | As an admin I can **approve or disapprove comments made ** so that I can filter out inappropriate comments |  admin can moderate and quickly filter comments and easily approve and delete comments in the admin panel of the blog | Pass |
+| 15 | As a user I can understand the website's purpose quickly so that I know if its what I'm looking for |   User can quickly understand website's purpose and what to do next from the homepage of the website | Pass |
+| 16 | As a user I can register an account with a social network so that **I can quickly register my account ** |   User can register an account using their Google/Facebook account info | not included |
+| 17 | As a user I can get links to important information related to hiking so that so i can get important information related to the hill walking & safety |   user can access important information in relation to hillwalking | not included |
+| 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
+
+  
+
 
 
 # Fixed Bugs
