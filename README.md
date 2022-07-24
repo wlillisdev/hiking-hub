@@ -321,15 +321,16 @@ __Error Pages__
   
   
   
-  | Feature Tested | Testing Method | Test Check | Final Result |  
-| --- | --- | --- | --- | 
-| Registration - Blank Field |- Each mandatory field was left blank intentionally to ensure error messages appeared | <img src="media/testing/registrationnameblank.png" alt="Blank name registration"> <img src="media/testing/blankpwsignup.png" alt="Blank password registration">| Pass | 
-| Registration - Invalid Email Field | - An invalid email address was tested to ensure error message appeared| <img src="media/testing/email.png" alt="Invalid email at registration">| Pass | 
-| Registration - Common Password |- A common password was tested to check security | <img src="media/testing/commonpw.png" alt="Common password registration">| Pass | 
-| Registration - Short Password |- A short password was tested to check that an error appears if less than 8 characters entered | <img src="media/testing/shortpw.png" alt="Short password registration">| Pass | 
-| Sign in - Blank Field | - Each mandatory field was left blank intentionally to ensure alert appeared |<img src="media/testing/blanksignin.png" alt="Blank field test">| Pass | 
-| Sign in - Incorrect Username Field | - Tested with incorrect spelling, non-capitalised letter|<img src="media/testing/capstestname.png" alt="Error to show incorrect data entered">| Pass |
-| Sign in - Incorrect Password Field | - Tested with incorrect spelling and capitalisation of some letters to ensure account security |<img src="media/testing/capstestname.png" alt="Error to show incorrect data entered">| Pass |
+  | Feature Tested | Testing Method | Final Result |  
+| --- | --- | --- |
+| User Register account |- Each mandatory fields was left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
+| User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared |  Pass | 
+| User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user |  Pass |
+| User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user  |  Pass |  
+
+
+
+
 | Non-Signed in user - like  | - Like button is not activated | <img src="media/testing/inactivelike.png" alt="Inactive Like Button"> | Pass |  
 | Non-Signed in user - comment  | - Page does not show post comment option |<img src="media/features/comment2.png" alt=" unable to comment image"> | Pass |
 | Non-Signed in user - create  | - nav bar does not show create option |<img src="media/testing/loggedoutnav.png" alt="No Create Post option in nav bar"> | Pass | 
