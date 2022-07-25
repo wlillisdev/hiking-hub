@@ -417,7 +417,27 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS](https://en.wikipedia.org/wiki/CSS)
-  - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  - [Python](https://www.python.org/)
+
+- ## Frameworks
+
+  - [Django](https://www.djangoproject.com/)
+  - [Bootstrap](https://getbootstrap.com/)
+  - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/)
+
+- ## Databases
+
+  - [SQLite](https://www.sqlite.org/index.html)
+  - [PostgreSQL](https://www.postgresql.org/)
+
+- ## Libraries
+
+  - [gunicorn](https://www.sqlite.org/index.html)
+  - [psycopg2](https://www.postgresql.org/)
+  
+
+
+
 
 - ## Content
    - The code for the contact us form was taken from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/) and modified.

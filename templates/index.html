@@ -14,7 +14,7 @@
                         <h1 id="hero-heading"><i class="fas fa-hiking fa-lg"></i> Hiking Hub</h1>
                         <!-- If User is registered run this -->
                         {% if user.is_authenticated %}
-                        <h4 class="hero-text"> Welcome back {{ user | title }}</h4>
+                        <h5 class="hero-text"> <em>Welcome back {{ user | title }}</em></h5>
                         <br>
                         <form action="{% url 'posts' %}" method="get">
                             <button class="btn btn-primary">View Posts</button>
