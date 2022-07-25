@@ -411,35 +411,52 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 [git cloning steps with pictuers](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
 
-# Credits
+# Technologies Used
 
 - ## Languages
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - Python Web Server Gateway to Heruko
   - [CSS](https://en.wikipedia.org/wiki/CSS)
+    - Python Web Server Gateway to Heruko
   - [Python](https://www.python.org/)
+    - Python Web Server Gateway to Heruko
 
 - ## Frameworks
 
   - [Django](https://www.djangoproject.com/)
+    - Python Web Server Gateway to Heruko
   - [Bootstrap](https://getbootstrap.com/)
+    - Python Web Server Gateway to Heruko
   - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/)
+    - Python Web Server Gateway to Heruko
 
 - ## Databases
 
   - [SQLite](https://www.sqlite.org/index.html)
+    - Database during development 
   - [PostgreSQL](https://www.postgresql.org/)
+    - Database used to store all the data on deployment
 
-- ## Libraries
+- ## Django Packages
 
-  - [gunicorn](https://www.sqlite.org/index.html)
-  - [psycopg2](https://www.postgresql.org/)
+  - [gunicorn](https://gunicorn.org/)
+    - Python Web Server Gateway to Heruko
+  - [psycopg2](https://pypi.org/project/psycopg2/)
+    - Python Web Server Gateway to Heruko
+  - [Summernote](https://summernote.org/)
+    - Python Web Server Gateway to Heruko
+  - [Cloudinary](https://cloudinary.com/)
+    - Python Web Server Gateway to Heruko
+  - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+    - Python Web Server Gateway to Heruko
   
+-  ## Tools
+   - [Balsamiq](https://balsamiq.com/) - Used to create wireframes
+   - [Google Fonts](https://fonts.google.com/) - Used to import fonts
+   - [TinyPNG](https://tinypng.com/) - Used to compress images
 
-
-
-
-- ## Content
+- ## Credits
    - The code for the contact us form was taken from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/) and modified.
    - The icons used throughout the site were from [Font Awesome](https://fontawesome.com/)
    - Variour Youtube tutorial were used to help understand flexbox.
@@ -462,10 +479,6 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
     - [w3docs](https://www.w3docs.com/)
     - Notes & Videos from course work from [Code Institute](https://codeinstitute.net/ie/)
 
--  ## Tools
-   - [Balsamiq](https://balsamiq.com/) - Used to create wireframes
-   - [Google Fonts](https://fonts.google.com/) - Used to import fonts
-   - [TinyPNG](https://tinypng.com/) - Used to compress images
 
 -  ## Acknowledgements
  - Special thanks to my mentor Miguel Martinez
