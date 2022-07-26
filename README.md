@@ -354,39 +354,40 @@ __Error Pages__
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
-  - Initially  i had a mouse over event listener  on google maps markers but this was no use for mobile which i realised  when testing, so i changed it to onclick event.
-  - I had eval in my validate quiz function, jshint gave this as a warning and a potential security risk so i removed it.
+  - After running all python code through pep 8 validator a number of errors were identified and fixed. 
+  - When creating the add post form i dident want the slug to appear on the form but when i removed it. It broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
+  - On the display posts page unless the images were sized correctly at upload the post cards were out of alignment [Card Alignment issue](static/readme/card_size_issue.png) and did not look great, i found a solution on how to size the images all the same on stack overflow [Cards images all the same size](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
+  - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
   
 
   # Unfixed Bugs
-  - I am aware there is a console.log Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.From what i have researched this is a issue between Github and Google and has no effect on the sites performance.
-  - I am aware the website has a lot of large rich images and although images were cropped and compressed it could lead to reduced speed until cached. I have experimented with next gen image formats but currently  they lack browser compatibility  so i just went with png compressed and cropped format for this site.
-
+  - I am not aware of any unfixed bugs currently
 
 # Deployment
 
 The site was deployed via Heroku.
-1.  Log in to Heroku or create an account if required.
-2.  Then, click the button labelled New from the dashboard in the top right corner and from the drop-down menu select Create New App.  You must enter a unique app name
-3.  Next, select your region.
+1.  Firstly Log in to Heroku.
+2.  Then, click New from the dashboard in the top right corner and from the drop-down menu select Create New App.  Create a unique app name.
+3.  Next, select your region.Europe.
 4.  Click on the Create App button.
-5.  In your app go to Resources tab and add a Heroku Postgres database.
-6.  The next page you will see is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars and enter:
+5.  Go to Resources tab and add a Heroku Postgres database.
+6.  The next page you will see is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars and enter the following:
     *   CLOUDINARY_URL = your cloudinary key 
     *   DATABASE_URL = the url of your heroku postgres database
     *   SECRET_KEY = a secret key for your app.
     *   PORT = 8000
-    *   DISABLE_COLLECTSTATIC = 1 during development and remove when deploying to production
+    *   DISABLE_COLLECTSTATIC = 1 during development only
 
-7.  Scroll to the top of the page and now choose the Deploy tab.
+7.  Go to the top of the page and now choose the Deploy tab.
 8.  Select Github as the deployment method.
 9.  Confirm you want to connect to GitHub.
-10. Search for the repository name and click the connect button.
-11. Scroll to the bottom of the deploy page and select preferred deployment type:
+10. Search for your repository name and click the connect button.
+11. Scroll to the bottom of the deploy page and select deployment type:
 12. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github.
 13. Select the correct branch for deployment from the drop-down menu and click Deploy Branch for manual deployment.
+14. Click on open app to view deploed site.
 
-NB: Ensure in Django settings, DEBUG is False, create a Procfile and save database and cloudinary urls and secret key to env.py.
+NB: Ensure in Django settings, DEBUG is False & DISABLE_COLLECTSTATIC is removed from config var for final deployment, create a Procfile and save database and cloudinary urls and secret key to env.py.
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
@@ -515,7 +516,7 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 
 
    # Conclusion
-    - I would like to experiment more with javaScript but as i am only getting to grips with the language i kept the concept simple.
+    - I would like to experiment more with django framework and its 
     - If I was to build this site again, I would spend more time on the wireframes and know exactly how to structure each section and element before i start.
     - If i had time i would like to add a timer function to the quizz.    
     - I would also learn to make more commits during the project built.
