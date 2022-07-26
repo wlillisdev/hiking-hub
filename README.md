@@ -350,9 +350,6 @@ __Error Pages__
 | 18 | As a user I can buy hiking equipment from the website so that ** I can be prepared for my next hike based on user's comments & recommendations** |   user can buy hiking related equipment and clothing from the website | not included |
 
   
-
-
-
 # Fixed Bugs
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
@@ -466,8 +463,6 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
    - YouTube videos from Eduonix Learning Solutions,Kevin Briggs & Web Dev Simplified were used as a base for the quizz.
    - Youtube videos about google maps api with javascript were followed from Traversy Media & Sam Codes.
 
-
-    
 
 -  ## Images
    - All images were taken from [Pexels](https://www.pexels.com/)
