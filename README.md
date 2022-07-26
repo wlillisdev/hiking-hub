@@ -393,7 +393,7 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 
 ## Cloning
 
-1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/wlillisdev/quiz-master)
+1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/wlillisdev/hiking-hub)
 
 2. Above the list of files, click Code.
 
@@ -407,26 +407,34 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 
 [git cloning steps with pictuers](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
+## Forking
+
+- A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+1. Open GitHub
+2. Find the 'Fork' button at the top right of the page
+3. Once you click the button the fork will be in your repository
+
 
 # Technologies Used
 
 - ## Languages
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - Python Web Server Gateway to Heruko
+    - Markup language used to create webpages of the site. 
   - [CSS](https://en.wikipedia.org/wiki/CSS)
-    - Python Web Server Gateway to Heruko
+    - CSS is the language we use to style HTML and Bootstrap framework.
   - [Python](https://www.python.org/)
-    - Python Web Server Gateway to Heruko
+    -  It is used when creating the backend functionality in Django.
 
 - ## Frameworks
 
   - [Django](https://www.djangoproject.com/)
-    - Python Web Server Gateway to Heruko
+    -  Python framework used to create all the backend logic
   - [Bootstrap](https://getbootstrap.com/)
-    - Python Web Server Gateway to Heruko
+    - CSS framework directed at responsive, mobile-first front-end web development.
   - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/)
-    - Python Web Server Gateway to Heruko
+    - For authentication, registration, account management
 
 - ## Databases
 
@@ -438,24 +446,52 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
 - ## Django Packages
 
   - [gunicorn](https://gunicorn.org/)
-    - Python Web Server Gateway to Heruko
+    - The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server.
   - [psycopg2](https://pypi.org/project/psycopg2/)
-    - Python Web Server Gateway to Heruko
+    -  As an adaptor for Python and PostgreSQL databases
   - [Summernote](https://summernote.org/)
-    - Python Web Server Gateway to Heruko
+    - Simple WYSIWYG Editor 
   - [Cloudinary](https://cloudinary.com/)
-    - Python Web Server Gateway to Heruko
+    - The image hosting service used to upload images
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-    - Python Web Server Gateway to Heruko
+    - Used to style and manage Django forms
   
 -  ## Tools
-   - [Balsamiq](https://balsamiq.com/) - Used to create wireframes
-   - [Google Fonts](https://fonts.google.com/) - Used to import fonts
-   - [TinyPNG](https://tinypng.com/) - Used to compress images
+   - [Balsamiq](https://balsamiq.com/) 
+     - Used to create wireframes
+   - [Google Fonts](https://fonts.google.com/) 
+     - Used to import fonts
+   - [TinyPNG](https://tinypng.com/) 
+     - Used to compress images
+   - [Font Awesome](https://fontawesome.com/) 
+     - Used to create the icons on site
+   - [LucidCharts](https://www.lucidchart.com/) 
+     - Data model design
+   - [Coolors](https://coolors.co/) 
+     - Used to design color pallet
+   - [Heroku](https://heroku.com/) 
+     - Used to host the project
+   - [Google Developer Tools](https://developer.chrome.com/docs/devtools/) 
+     -  used to debug the website and edit stylying
+   - [GitHub](https://github.com/) 
+     -  GitHub is used to store the projects code 
+   - [GitPod](https://www.gitpod.io/) 
+     -  GitPod was the IDE used to create the site
+   - [PEP8](http://pep8online.com/) 
+     -  Used to validate and check Python code
+   - [W3C - HTML](https://validator.w3.org/) 
+     -  W3C was used to validate all the HTML code 
+   - [W3C - CSS](https://jigsaw.w3.org/css-validator/) 
+     -  W3C was used to validate the CSS code
 
+## Images
+  - All images were taken from [Pexels](https://www.pexels.com/)
+
+## Content
+  - Content from All Trails was used to generate blog posts [AllTrails](https://www.alltrails.com/ireland)
+ 
 - ## Credits
-   - The code for the contact us form was taken from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/) and modified.
-   - The icons used throughout the site were from [Font Awesome](https://fontawesome.com/)
+   - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Codestar tutorials and modified.
    - Variour Youtube tutorial were used to help understand flexbox.
    - [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE)
    - Animated Text on home page from [bulldogpatch](https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg)
@@ -464,8 +500,6 @@ NB: Ensure in Django settings, DEBUG is False, create a Procfile and save databa
    - Youtube videos about google maps api with javascript were followed from Traversy Media & Sam Codes.
 
 
--  ## Images
-   - All images were taken from [Pexels](https://www.pexels.com/)
 
   
  -  ## Resources
