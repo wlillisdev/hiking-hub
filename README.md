@@ -40,14 +40,12 @@ The goal of this website is to create a hiking community blog. To provide a plat
   - As a super user, I want to be able to approve or Delete users blog posts.
   - As a super user, I want to be able to approve or delete comments.
 
-
 # Agile Approach to Project Devlopment
 
 An agile approach was taken in the development of this project. The project will be dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
 
 - MoSoCoW Method:
   - I will also aim to integrate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requirements need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in github and allocated to each requirement so they can be easily filtered and identified.
-
 
   <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
 
@@ -63,9 +61,6 @@ An agile approach was taken in the development of this project. The project will
   - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
   ![Kanban Board](static/readme/kanban_board.png)
   -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
-
-
-  
  
 # Features 
 
@@ -88,8 +83,6 @@ __Navigation Bar__
   ![Navigation Bar When logged in](static/readme/navbar.png)
   - The responsive nav bar below.
   - <img src="static/readme/navbar_hamburger.png" alt="navbar hamburger" width="200"/>
-
-
  
 __Landing Page__
 
@@ -102,13 +95,11 @@ __Landing Page__
   - Landing page below shows the text displayed when user is logged in.
   - <img src="static/readme/home_logged_in.png" alt="hero not logged in" width="675"/>
 
-
 __Why Join Us__
 
 - If the users scroll down from the hero image, looking for more information. They will come across the section why join us.
 - With the help of Font Awesome and some carefully crafted bullets points of text. It outlines key area of why the user should sign up to this blog.
 - <img src="static/readme/why_join_us.png" alt="why join us" width="600"/>
-
 
 __Footer__
 
@@ -118,13 +109,11 @@ __Footer__
 
  ![Footer Bar](static/readme/new_footer.png)
 
-
 __About Us__
 
   - About Us section is a very brief description about hiking hub to quickly give the user more information about the website and why we started up this blog.
   - It also highlights the goals of the website so the user can understand and build trust with the blog.
   - <img src="static/readme/about_us.png" alt="About Us" width="450"/>
-  
 
 __Post List__
   - On the top nav bar the user can click on view posts. This will bring the user to a page where all the posts are displayed. 
@@ -137,15 +126,12 @@ __Pagination__
   - When 6 post occupy a page it automatically creates a new page, this can be accessed at the bottom of the page. You can press next or previous to navigate between pages.
   - <img src="static/readme/new_paginate.png" alt="pagination" width="400"/>
 
- 
 __Post Detail__
-  - [View typical post detail page](https://8000-wlillisdev-hikinghub-5qwbva7ia8j.ws-eu54.gitpod.io/cannon-sheehan-loop/)
+  - [View typical post detail page](https://hikinghub.herokuapp.com/cannon-sheehan-loop/)
   - When a post summary card is clicked it will bring the user to a post detail page.
   - This page gives a detailed view of the blog post, it shows featured image, summary of hike details and a review of the hike.
   - <img src="static/images/post_detail.png" alt="post detail" width="400"/>
   - Buttons for edit and delete post also appear on the blog posts created by the user to allow editing at a later date.
-
-
 
 __Comments__
   - At the bottom of the post detail page is a comments section. It displays comments left by users accompanied with the date.
@@ -154,7 +140,6 @@ __Comments__
   - <img src="static/images/leave_comment.png" alt="post comment" width="550"/>
   - The user will also get an alert message that there comment was submitted
   ![Comment Submitted](static/readme/alert_comment.png)
-
 
 __Add Post__
   - If the user is logged in, then they can add a post. The link to adding a post is displayed on the nav bar once the user has logged in.
@@ -165,7 +150,6 @@ __Add Post__
   - [View add Post Form] (static/images/add_post.png)
   - The user will also get an alert message that there post was submitted
   ![Alert Add Post](static/readme/post_submitted.png)
-
   
 __Update Post__
   - If the user is logged in, the update post button will be active on the blog posts they have created.
@@ -175,13 +159,11 @@ __Update Post__
    - The user will also get an alert message that there post was updated
   ![Alert Update Post](static/readme/update_post_alert.png)
 
-
 __Delete Post__
   - If the user decides they want to delete a blog post they have created, they can click on the delete button.
   - As safety the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return user back to the home page.
   - If deleted the post will be removed from the data base and the user will be redirected to the home page.
   ![Delete Post](static/images/delete.png)
-
 
 __Sign Up__
   - The user will be brought to a sign-up form if they are new to the site and would like to set up an account. Users will have to register if they want to add posts, comment or like posts.
@@ -197,13 +179,11 @@ __Log in and Log Out Pages__
   - The user will get an alert message if they have successfully logged out.
   ![Logged Out](static/images/signed_out.png)
 
-
 __Admin Panel__
   - A superuser was created at the start of this project to manage the administration section.
   - Only approved admin users can access this section of the site and can do so by adding /admin to the URL home page and signing in.
   - The admin has got full CRUD functionality. They can create, read update and delete blog posts. Create draft posts, Delete and approve comments. Delete and add users. And has the functionality to filter and search though information.
   - <img src="static/images/admin.png" alt="admin panel" width="600"/>
-
 
 __Error Pages__
  - Custom error pages were also created for this project.
@@ -212,40 +192,31 @@ __Error Pages__
    - 500 Server Error - internal server error 
    - <img src="static/readme/404_error.png" alt="404 error" width="600"/>
 
-
-
 # Design
  - Theme
    - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and users could display their posts simply and elegantly. 
    - Fonts were imported from google fonts, Roboto & Lato were chosen. These were picked as they were bold and simple and easy to read and complimented each other and the theme of the site.
-
-
 
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
 
    ![Data Models](static/images/models.png)
 
-
  - Color Palette
    - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the grey for a hover effect.
-
 
  ![Color Palette](static/images/color_pallet.png)
 
 - Imagery
    - The images that were selected for the website were bold and bright images related to the outdoor and hiking.
 
-
 - Wireframes
    - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. (Home Page Below)
-
 
   - ![Homepage Wireframe Concept](static/readme/hiking_hub_home.png)
   - [Display Posts Wireframe Concept](static/readme/posts_page_layout.png)
   - [Post Detail Wireframe Concept](static/readme/post_detail_wireframe.png)
    
-
 # Future Development
 
 - User Profiles
@@ -259,8 +230,6 @@ __Error Pages__
 
 - Online Shop
   - As the site grows in order to monetize it an online shop can be added. To provide essential hiking supplies for its users.  
-
-
 
 # Testing
 
@@ -284,7 +253,6 @@ __Error Pages__
 
   ![CSS Pass](static/readme/css_pass_heruko.png)
 
-  
    - [Link to CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   ## Python
@@ -307,14 +275,9 @@ __Error Pages__
  ![Homepage](static/readme/heroku_lighthouse.png)
  - [Mobile Light House Results](static/readme/mobile_lighthouse.png)
 
-
-
-
-
  
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
-  - The form was checked that name and email were required, that the radio buttons functioned and that the submit button worked.
   - The site was further tested using feedback from mentor, family and friends who checked it on different devices they had.
   - All of the page's features were tested on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, and Opera.
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify and debug issues within the HTML and CSS.
@@ -388,7 +351,7 @@ __Error Pages__
   - After running all python code through pep 8 validator a number of errors were identified and fixed. 
   - When creating the add post form I didn’t want the slug to appear on the form but when I removed it. It broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
   - On the display posts page unless the images were sized correctly at upload the post cards were out of alignment [Card Alignment issue] (static/readme/card_size_issue.png) and did not look great, I found a solution on how to size the images all the same on stack overflow [Cards images all the same size](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
-  - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github] (https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
+  - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
 
 
   
@@ -453,7 +416,7 @@ The site was deployed via Heroku.
 
 # Technologies Used
 
-- ## Languages
+## Languages
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
     - Markup language used to create webpages of the site. 
@@ -462,7 +425,7 @@ The site was deployed via Heroku.
   - [Python](https://www.python.org/)
     -  It is used when creating the backend functionality in Django.
 
-- ## Frameworks
+## Frameworks
 
   - [Django](https://www.djangoproject.com/)
     -  Python framework used to create all the backend logic
@@ -471,14 +434,14 @@ The site was deployed via Heroku.
   - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/)
     - For authentication, registration, account management
 
-- ## Databases
+## Databases
 
   - [SQLite](https://www.sqlite.org/index.html)
     - Database during development 
   - [PostgreSQL](https://www.postgresql.org/)
     - Database used to store all the data on deployment
 
-- ## Django Packages
+## Django Packages
 
   - [gunicorn](https://gunicorn.org/)
     - The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server.
@@ -491,7 +454,7 @@ The site was deployed via Heroku.
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
     - Used to style and manage Django forms
   
--  ## Tools
+## Tools
    - [Balsamiq](https://balsamiq.com/) 
      - Used to create wireframes
    - [Google Fonts](https://fonts.google.com/) 
@@ -527,7 +490,7 @@ The site was deployed via Heroku.
 ## Content
   - Content from All Trails was used to generate blog posts [AllTrails](https://www.alltrails.com/ireland)
  
-- ## Credits
+## Credits
    - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Codestar tutorials and modified.
    - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a django blog.
    - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views,templates & bootstrap.
@@ -539,23 +502,22 @@ The site was deployed via Heroku.
    - [Bootstrap](https://www.youtube.com/watch?v=4sosXZsdy-s) Tutorials used to understand bootstrap.
 
   
- -  ## Resources
-    - [Stack Overflow](https://stackoverflow.com/)
-    - [W3Schools](https://www.w3schools.com/)
-    - [w3docs](https://www.w3docs.com/)
-    - Notes & Videos from course work from [Code Institute](https://codeinstitute.net/ie/)
+## Resources
+  - [Stack Overflow](https://stackoverflow.com/)
+  - [W3Schools](https://www.w3schools.com/)
+  - [w3docs](https://www.w3docs.com/)
+  - Notes & Videos from course work from [Code Institute](https://codeinstitute.net/ie/)
 
 
--  ## Acknowledgements
+## Acknowledgements
  - Special thanks to my mentor Miguel Martinez
  for his help and guidance in the development of my project. Special thanks to my tutor Kasia and our regular class meetings and members of the awesome slack community
 
 
-
-   # Conclusion
-    - I would like to experiment more with Django framework and build some more projects. Overall, a learned a lot and enjoyed working with Django.
-    - If I was to build this site again, I would spend more time on the wireframes and model designs.
-    - If it had time, I would like to add user profiles and hike categories.   
-    - I would also learn to make more commits during the project built.
+# Conclusion
+  - I would like to experiment more with Django framework and build some more projects. Overall, a learned a lot and enjoyed working with Django.
+  - If I was to build this site again, I would spend more time on the wireframes and model designs.
+  - If it had time, I would like to add user profiles and hike categories.   
+  - I would also learn to make more commits during the project built.
 
 
