@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://hikinghub.herokuapp.com/)..
 
-![Home page Hiking Hub](static/readme/new_cover_image.png)
+![Home page Hiking Hub](static/readme/new_responsive.png)
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everything to do with hiking in Ireland.
 

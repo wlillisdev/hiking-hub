@@ -6,7 +6,6 @@
 
 <div class="container-fluid">
     <div class="row">
-
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -14,6 +13,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 border-success rounded">
                         <div class="card-body">
+                            <!-- Featured Image -->
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
@@ -22,15 +22,20 @@
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="author-card">
+                                    <!-- Post Detail Author -->
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug  %}" class="post-link">
-                                <h3 class="card-title"> {{ post.title }}</h3>
+                                <!-- Post Detail Title -->
+                                <h4 class="card-title"> {{ post.title }}</h4>
+                                <!-- Post Detail Location -->
                                 <h6 class="card-title"> <i class="fas fa-map-marker-alt"></i> Location - {{ post.location }}</h6>
+                                <!-- Post Detail Summary -->
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
                             <div class="col mt-2 mb-3">
+                                <!-- if logged in user.id is the same as author id edit & delete buttons visible -->
                                 {% if user.id == post.author.id %}
                                 <a href="{% url 'update_post' post.slug %}" class="edit"><button class="btn btn-success btn-sm edit-post-btn"
                                         value="{{ post.slug }}" type="button">Update Post</button></a>
@@ -54,13 +59,13 @@
     </div>
     {% if is_paginated %}
     <nav aria-label="Page navigation">
+        <!-- Pagination -->
         <ul class="pagination justify-content-center">
             {% if page_obj.has_previous %}
             <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
             {% endif %}
             {% if page_obj.has_next %}
             <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
-
             {% endif %}
         </ul>
     </nav>

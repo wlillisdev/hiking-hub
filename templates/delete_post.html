@@ -2,12 +2,12 @@
 
 {% load static %}
 
-
 {% block content %}
 
     <div class="container">
         <div class="row border border-danger mt-3">
             <div class="col-8 offset-2 mt-3 mb-3 text-center">
+                <!-- Delete Post form -->
                 <form method="POST">
                     {% csrf_token %}
                     <fieldset class="form-group">
