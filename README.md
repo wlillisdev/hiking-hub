@@ -354,10 +354,14 @@ __Error Pages__
   - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
 
 
-  
-
   # Unfixed Bugs
   - I am not aware of any unfixed bugs currently
+
+  # Security
+  - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
+  - Secret access keys were stored safely in env.py this was set up before the first push to Github.
+  - Django allauth combined with Django’s LoginRequiredMixin and UserPassesTestMixin were used to ensure only signed in users can edit or detele post.
+
 
 # Deployment
 
