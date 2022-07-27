@@ -91,7 +91,7 @@ __Landing Page__
   - The hero image also has a Parallax Scrolling Effect with the text.
   - The text on the home screen changes depending on if the users is logged in or not.
   - Landing page below shows the text displayed when new user visits the site and is not registered.
-  - <img src="static/readme/home_not_logged_in.png" alt="hero not logged out" width="675"/>
+  - <img src="static/readme/new_hiking_home.png" alt="hero not logged out" width="675"/>
   - Landing page below shows the text displayed when user is logged in.
   - <img src="static/readme/home_logged_in.png" alt="hero not logged in" width="675"/>
 
@@ -519,7 +519,7 @@ The site was deployed via Heroku.
 
 
 # Conclusion
-  - I would like to experiment more with Django framework and build some more projects. Overall, a learned a lot and enjoyed working with Django.
+  - I would like to experiment more with Django and build some more projects. Overall, I learned a lot and enjoyed working with Django.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
   - If it had time, I would like to add user profiles and hike categories.   
   - I would also learn to make more commits during the project built.
