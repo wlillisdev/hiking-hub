@@ -488,7 +488,7 @@ The site was deployed via Heroku.
   - All images were taken from [Pexels](https://www.pexels.com/)
 
 ## Content
-  - Content from All Trails was used to generate blog posts [AllTrails](https://www.alltrails.com/ireland)
+  - Content & maps from All Trails was used to generate blog posts [AllTrails](https://www.alltrails.com/ireland)
  
 ## Credits
    - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Codestar tutorials and modified.
