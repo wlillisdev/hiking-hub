@@ -253,8 +253,6 @@ __Error Pages__
 
   ![CSS Pass](static/readme/css_pass_heruko.png)
 
-   - [Link to CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhikinghub.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
   ## Python
   - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
   - [some erros found during testing](static/readme/erros_views_py.png)
