@@ -350,6 +350,7 @@ __Error Pages__
   - When creating the add post form I didn’t want the slug to appear on the form but when I removed it. It broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
   - On the display posts page unless the images were sized correctly at upload the post cards were out of alignment [Card Alignment issue] (static/readme/card_size_issue.png) and did not look great, I found a solution on how to size the images all the same on stack overflow [Cards images all the same size](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
   - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
+  - There was a bug in the footer it wasent staying on the bottom of the page [Footer Issue](static/readme/fotter_bug.png). I found a solution on stack overflow that fixed this issue.
 
 
   # Unfixed Bugs
