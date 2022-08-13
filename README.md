@@ -109,6 +109,11 @@ __Footer__
 
  ![Footer Bar](static/readme/new_footer.png)
 
+__Scroll Back To Top__
+  - When the user scrolls below the fold the icon appears in the botton right of the screen. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
+
+  - <img src="static/readme/scroll.png" alt="scroll featuer" width="600"/>
+
 __About Us__
 
   - About Us section is a very brief description about hiking hub to quickly give the user more information about the website and why we started up this blog.
@@ -167,11 +172,11 @@ __Delete Post__
 
 __Sign Up__
   - The user will be brought to a sign-up form if they are new to the site and would like to set up an account. Users will have to register if they want to add posts, comment or like posts.
-  - <img src="static/images/signup.png" alt="sign up" width="400"/>
+  - <img src="static/readme/sign_up_new.png" alt="sign up" width="400"/>
 
 __Log in and Log Out Pages__
   - Users that are returning to the blog and want to log back into their account have a simplified form that requires just a username and password.
-  - <img src="static/images/signin_page.png" alt="log in" width="400"/>
+  - <img src="static/readme/sign_in_new.png" alt="log in" width="400"/>
   - When the user has successfully logged in the users will get an alert message and their user’s name displayed on the nav bar.
   ![Logged in](static/images/signin_page_loggedin.png)
   - When the user decides to leave and log out of their account, they will be brought to a screen that asks them are they sure they want to log out.
