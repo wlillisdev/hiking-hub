@@ -91,6 +91,11 @@
         {% endblock content %}
     </main>
 
+    <!-- Back to Top -->
+    <a href="#" class="to-top">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    
     <!-- Footer -->
     <footer class="footer mt-auto py-3  bg-dark">
         <p class="m-0 text-center text-white">Follow Us On</p>
@@ -111,6 +116,10 @@
             href="{% url 'about' %}">About Us</a></span></p>
         </div>
     </footer>
+     
+    <!-- Loads js for scroll to top -->
+    <script src="{% static 'js/main.js' %}"></script>
+    
     <!-- Makes alert dissaper after 3 seconds -->
     <script>
         setTimeout(function () {
