@@ -1,4 +1,6 @@
-//  Scroll to Top Icon
+//  Scroll to Top of page
+
+/*jshint esversion: 6 */
 
 const toTop = document.querySelector(".to-top");
 
@@ -8,4 +10,4 @@ window.addEventListener("scroll", () => {
   } else {
     toTop.classList.remove("active");
   }
-})
+});

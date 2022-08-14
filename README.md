@@ -269,6 +269,11 @@ __Error Pages__
   - [view passed apps.py](static/readme/app.py_pass.png)
   - [view passed admin.py](static/readme/admin.py_pass.png)
 
+  ## Java Script
+  - [some erros found during testing](static/readme/js_error.png)
+  - [view passed js](static/readme/js_pass.png)
+  
+
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
@@ -359,7 +364,7 @@ __Error Pages__
 
 
   # Unfixed Bugs
-  - I am not aware of any unfixed bugs currently
+  - When the user deletes a blog post i can not get the alert message to appear on top of the screen.
 
   # Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
@@ -489,7 +494,6 @@ The site was deployed via Heroku.
      -  W3C was used to validate all the HTML code 
    - [W3C - CSS](https://jigsaw.w3.org/css-validator/) 
      -  W3C was used to validate the CSS code
-
 
 
 ## Images
