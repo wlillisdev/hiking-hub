@@ -12,7 +12,7 @@ The goal of this website is to create a hiking community blog. To provide a plat
 
 # Target Audience
 
- Hiking is an activity enjoyed by all age groups. But is it recommend that users be aware of the risks involved with hiking. And not attempt difficult trails if you do not have a guide, relevant experience, proper equipment, clothing and supplies. Primally the website will be aimed at hiking enthusiasts 25+ based in Ireland  
+ Hiking is an activity enjoyed by all age groups. But is it recommended that users be aware of the risks involved with hiking. And not attempt difficult trails if you do not have a guide, relevant experience, proper equipment, clothing and supplies. Primally the website will be aimed at hiking enthusiasts 25+ based in Ireland  
 
 # User Experience (UX)
 
@@ -20,7 +20,7 @@ The goal of this website is to create a hiking community blog. To provide a plat
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
-  - As a first-time visitor, I want to be able to register and create an account to get full access to blog
+  - As a first-time visitor, I want to be able to register and create an account to get full access to the blog.
   - As a first-time visitor, I want to quickly view a summary of blog posts on one page.
   - As a first-time visitor, I want to click on a blog post and view the post in detail.
   - As a first-time visitor, I want to be able to see comments and the amount of likes on a blog post.
@@ -50,7 +50,7 @@ An agile approach was taken in the development of this project. The project will
   <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
 
 - User Stories
-  - The whole project was broken down in 18 individual user stories, each user story was a self-continued development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
+  - The whole project was broken down in 18 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
   - [View List of 18 User Stories] (https://github.com/wlillisdev/hiking-hub/issues)
   - Specific acceptance criteria were allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
   ![Issue Example](static/readme/user_story.png)
@@ -79,14 +79,14 @@ __Navigation Bar__
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements also change colour when hovered which adds to the user experience.
   - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.   
-  - The nav bar below user logged in view.
+  - The nav bar below shows user logged in view.
   ![Navigation Bar When logged in](static/readme/navbar.png)
   - The responsive nav bar below.
   - <img src="static/readme/navbar_hamburger.png" alt="navbar hamburger" width="200"/>
  
 __Landing Page__
 
-  - The landing page contains an eye-catching background image of a beautiful landscape with a trail by a stream and immediately catches a user’s attention.
+  - The landing page contains an eye-catching background image of a beautiful landscape with a trail by a stream and immediately catches the user’s attention.
   - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to sign up with a bold sign-up button.
   - The hero image also has a Parallax Scrolling Effect with the text.
   - The text on the home screen changes depending on if the users is logged in or not.
@@ -123,7 +123,7 @@ __About Us__
 __Post List__
   - On the top nav bar the user can click on view posts. This will bring the user to a page where all the posts are displayed. 
   -  They are displayed in a card format in 2 rows of three in desktop view. Each card has quick summary of the blog post. Which include Title, Author, Location, and quick summary of the post, date created and the number of likes.
-  -  When a user is logged in an edit and a delete button will appear on cards. Only on the blog posts the logged in user have created will the buttons appear. To allow them make edits to their blog posts.
+  -  When a user is logged in an edit and a delete button will appear on cards. Only on the blog posts the logged in user has created will the buttons appear. To allow them make edits to their previous blog posts.
   -  [View Post Summary with buttons](static/images/post_edit.png)
   ![post list](static/images/post_view.png)
 
@@ -151,7 +151,7 @@ __Add Post__
 
   - The user is taken to a form with a WYSIWYG editor called Summernote to help them format their content by adding different headings, links, images etc.
 
-  - Once the user has submitted their post, they are taken back to the home page, all post must be approved before final publishing.
+  - Once the user has submitted their post, they are taken back to the home page, all post must be approved before final publishing on the blog.
   - [View add Post Form] (static/images/add_post.png)
   - The user will also get an alert message that there post was submitted
   ![Alert Add Post](static/readme/post_submitted.png)
@@ -166,7 +166,7 @@ __Update Post__
 
 __Delete Post__
   - If the user decides they want to delete a blog post they have created, they can click on the delete button.
-  - As safety the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return user back to the home page.
+  - As safety the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return user back to the home page if they dont want to delete the post.
   - If deleted the post will be removed from the data base and the user will be redirected to the home page.
   ![Delete Post](static/images/delete.png)
 
@@ -185,7 +185,7 @@ __Log in and Log Out Pages__
   ![Logged Out](static/images/signed_out.png)
 
 __Admin Panel__
-  - A superuser was created at the start of this project to manage the administration section.
+  - A superuser was created at the start of this project to manage the administration section of teh blog.
   - Only approved admin users can access this section of the site and can do so by adding /admin to the URL home page and signing in.
   - The admin has got full CRUD functionality. They can create, read update and delete blog posts. Create draft posts, Delete and approve comments. Delete and add users. And has the functionality to filter and search though information.
   - <img src="static/images/admin.png" alt="admin panel" width="600"/>
@@ -199,7 +199,7 @@ __Error Pages__
 
 # Design
  - Theme
-   - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and users could display their posts simply and elegantly. 
+   - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and the users could display their posts simply and elegantly. 
    - Fonts were imported from google fonts, Roboto & Lato were chosen. These were picked as they were bold and simple and easy to read and complimented each other and the theme of the site.
 
  - Data Model
@@ -271,6 +271,7 @@ __Error Pages__
 
   ## Java Script
   - [some erros found during testing](static/readme/js_error.png)
+  - I found a solution on stack overflow for the  esversion: 6 error
   - [view passed js](static/readme/js_pass.png)
   
 
@@ -357,7 +358,7 @@ __Error Pages__
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
   - After running all python code through pep 8 validator a number of errors were identified and fixed. 
-  - When creating the add post form I didn’t want the slug to appear on the form but when I removed it. It broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
+  - When creating the add post form I didn’t want the slug to appear on the form but when removed  it broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
   - On the display posts page unless the images were sized correctly at upload the post cards were out of alignment [Card Alignment issue] (static/readme/card_size_issue.png) and did not look great, I found a solution on how to size the images all the same on stack overflow [Cards images all the same size](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
   - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
   - There was a bug in the footer it wasent staying on the bottom of the page [Footer Issue](static/readme/fotter_bug.png). I found a solution on stack overflow that fixed this issue.
@@ -500,16 +501,17 @@ The site was deployed via Heroku.
   - All images were taken from [Pexels](https://www.pexels.com/)
 
 ## Content
-  - Content & maps from All Trails was used to generate blog posts [AllTrails](https://www.alltrails.com/ireland)
+  - Content & maps from All Trails was used to generate blog posts  [AllTrails](https://www.alltrails.com/ireland)
  
 ## Credits
    - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Codestar tutorials and modified.
    - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a django blog.
    - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views,templates & bootstrap.
    - [Net Ninja Django Tutorial series](https://www.youtube.com/watch?v=n-FTlQ7Djqc) recommended by other students in slack, provided a simplified explanation Djangos MVT.
-   - [Parallax Scrolling Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) used to create the effecct on the homepage.
+   - [Parallax Scrolling Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) used to create the effect on the homepage.
    - [Django Documentation ](https://docs.djangoproject.com/en/4.0/) used to trubleshoot problems and get information.
    - [Create Favicon](https://gauger.io/fonticon/) created favicon from font awsome icon found on stack overflow.
+   - [GT Coding](https://www.youtube.com/watch?v=SJVCvnKM_lI) creates a icon that will scroll to top of page when clicked
    - [Django Slug Tutorial](https://learndjango.com/tutorials/django-slug-tutorial) creating slugs in django
    - [Bootstrap](https://www.youtube.com/watch?v=4sosXZsdy-s) Tutorials used to understand bootstrap.
 
@@ -527,7 +529,7 @@ The site was deployed via Heroku.
 
 
 # Conclusion
-  - I would like to experiment more with Django and build some more projects. Overall, I learned a lot and enjoyed working with Django.
+  - I would like to experiment more with Django and build some more projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
   - If it had time, I would like to add user profiles and hike categories.   
   - I would also learn to make more commits during the project built.
