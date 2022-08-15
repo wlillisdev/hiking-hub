@@ -206,6 +206,7 @@ __Error Pages__
    - Lucid Charts was used to design and visualise the models used in this project.
 
    ![Data Models](static/images/models.png)
+    - FK refers to Foreign Key
 
  - Color Palette
    - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the grey for a hover effect.
