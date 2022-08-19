@@ -128,7 +128,7 @@ __Post List__
   ![post list](static/images/post_view.png)
 
 __Pagination__
-  - When 6 post occupy a page it automatically creates a new page, this can be accessed at the bottom of the page. You can press next or previous to navigate between pages.
+  - When 6 posts occupy a page it automatically creates a new page, this can be accessed at the bottom of the page. You can press next or previous to navigate between pages.
   - <img src="static/readme/new_paginate.png" alt="pagination" width="400"/>
 
 __Post Detail__
@@ -166,7 +166,7 @@ __Update Post__
 
 __Delete Post__
   - If the user decides they want to delete a blog post they have created, they can click on the delete button.
-  - As safety the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return user back to the home page if they dont want to delete the post.
+  - As safety featuer the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return the user back to the home page if they dont want to delete the post.
   - If deleted the post will be removed from the data base and the user will be redirected to the home page.
   ![Delete Post](static/images/delete.png)
 
@@ -200,7 +200,7 @@ __Error Pages__
 # Design
  - Theme
    - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and the users could display their posts simply and elegantly. 
-   - Fonts were imported from google fonts, Roboto & Lato were chosen. These were picked as they were bold and simple and easy to read and complimented each other and the theme of the site.
+   - Fonts were imported from google fonts, Roboto & Lato were chosen. These were picked as they were bold, simple and easy to read and complimented each other and the theme of the site.
 
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
